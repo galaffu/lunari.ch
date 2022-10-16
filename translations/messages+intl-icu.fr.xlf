@@ -439,6 +439,21 @@
                 <source>paginator.next</source>
                 <target>Suivant</target>
             </trans-unit>
+
+            <!--=====================================-->
+            <!--=        General TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="en.savoir-plus">
+                <source>En savoir plus</source>
+                <target>En savoir plus</target>
+            </trans-unit>
+            <trans-unit id="voirnosoffres">
+                <source>Voir nos offres</source>
+                <target>Voir nos offres</target>
+            </trans-unit>
+            <!--=====================================-->
+            <!--=        Menu TRANS       =-->
+            <!--=====================================-->
             <trans-unit id="accueil">
                 <source>Accueil</source>
                 <target>Accueil</target>
@@ -447,13 +462,60 @@
                 <source>Services</source>
                 <target>Services</target>
             </trans-unit>
+            <trans-unit id="nos.projets">
+                <source>Nos projets</source>
+                <target>Nos projets</target>
+            </trans-unit>
+            <trans-unit id="blog">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
             <trans-unit id="contact">
                 <source>Contact</source>
-                <target>Kontakt</target>
+                <target>Contact</target>
             </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
                 <source>Une offre vidéo</source>
                 <target>Une offre vidéo</target>
+            </trans-unit>
+            <!--=====================================-->
+            <!--=        Services TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="repartissez">
+                <source>Répartissez votre investissement</source>
+                <target>Répartissez votre investissement</target>
+            </trans-unit>
+            <trans-unit id="multipliez">
+                <source>Multipliez le contenu</source>
+                <target>Multipliez le contenu</target>
+            </trans-unit>
+            <trans-unit id="reactivite">
+                <source>Réactivité</source>
+                <target>Réactivité</target>
+            </trans-unit>
+            <trans-unit id="reactivite.2">
+                <source>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</source>
+                <target>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</target>
+            </trans-unit>
+            <trans-unit id="contenu">
+                <source>Contenu</source>
+                <target>Contenu</target>
+            </trans-unit>
+            <trans-unit id="contenu.2">
+                <source>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</source>
+                <target>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</target>
+            </trans-unit>
+            <trans-unit id="equilibre">
+                <source>Equilibre</source>
+                <target>Equilibre</target>
+            </trans-unit>
+            <trans-unit id="equilibre.2">
+                <source>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</source>
+                <target>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</target>
+            </trans-unit>
+            <trans-unit id="nosrealisations">
+                <source>Découvrir nos dernières réalisations.</source>
+                <target>Découvrir nos dernières réalisations.</target>
             </trans-unit>
         </body>
     </file>

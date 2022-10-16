@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Repository\ClientRepository;
+use App\Repository\ProjetRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -24,10 +26,20 @@ public function changeLocale($locale, Request $request)
 
 
     #[Route('/', name: 'home')]
-    public function index(): Response
+    public function index(
+        ProjetRepository $projetRepository,
+        ClientRepository $clientRepository
+        ): Response
     {
         return $this->render('home/index.html.twig', [
-            'controller_name' => 'HomeController',
+            'projets' => $projetRepository->lastFour(),
+            'clients' => $clientRepository->findAll(),
+        ]);
+    }
+
+    public function lunabar(): Response
+    {
+        return $this->render('navbar/lunabar.html.twig', [
         ]);
     }
 }

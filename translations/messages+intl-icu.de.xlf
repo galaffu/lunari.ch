@@ -443,19 +443,83 @@
                 <source>paginator.current</source>
                 <target>(aktuell)</target>
             </trans-unit>
+            <!--=====================================-->
+            <!--=        General TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="en.savoir-plus">
+                <source>En savoir plus</source>
+                <target>Mehr erfahren</target>
+            </trans-unit>
+            <trans-unit id="voirnosoffres">
+                <source>Voir nos offres</source>
+                <target>Zu unseren Angeboten</target>
+            </trans-unit>
+            <!--=====================================-->
+            <!--=        Menu TRANS       =-->
+            <!--=====================================-->
             <trans-unit id="accueil">
                 <source>Accueil</source>
-                <target>Homepage</target>
+                <target>Startseite</target>
             </trans-unit>
             <trans-unit id="services">
                 <source>Services</source>
-                <target>Serviceschtellung</target>
+                <target>Dienste</target>
+            </trans-unit>
+            <trans-unit id="projet">
+                <source>Nos projets</source>
+                <target>Projekte</target>
+            </trans-unit>
+            <trans-unit id="blog">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
+            <trans-unit id="contact">
+                <source>Contact</source>
+                <target>Kontakt</target>
             </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
                 <source>Une offre vidéo</source>
                 <target>Ein maßgeschneidertes Videoangebot</target>
             </trans-unit>
-
+            <!--=====================================-->
+            <!--=        Services TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="repartissez">
+                <source>Répartissez votre investissement</source>
+                <target>Verteilen Sie Ihre Investition</target>
+            </trans-unit>
+            <trans-unit id="multipliez">
+                <source>Multipliez le contenu</source>
+                <target>Vervielfachen Sie den Inhalt</target>
+            </trans-unit>
+            <trans-unit id="reactivite">
+                <source>Réactivité</source>
+                <target>Reaktivität</target>
+            </trans-unit>
+            <trans-unit id="reactivite.2">
+                <source>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</source>
+                <target>Die Medien und Modetrends sind einem ständigen Wandel unterworfen. Ein Abonnement garantiert Ihnen Anpassungsfähigkeit und Reaktionsfähigkeit.</target>
+            </trans-unit>
+            <trans-unit id="contenu">
+                <source>Contenu</source>
+                <target>Inhalt</target>
+            </trans-unit>
+            <trans-unit id="contenu.2">
+                <source>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</source>
+                <target>Mehr Inhalte bedeuten mehr Möglichkeiten, über alle Aspekte Ihres Unternehmens zu kommunizieren - ohne Grenzen.</target>
+            </trans-unit>
+            <trans-unit id="equilibre">
+                <source>Equilibre</source>
+                <target>Gleichgewicht</target>
+            </trans-unit>
+            <trans-unit id="equilibre.2">
+                <source>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</source>
+                <target>Unser Angebot bringt ein ausgewogenes Verhältnis zwischen inhaltlicher Qualität, Produktionsfrequenz und der Einhaltung Ihrer anfänglichen Kosten in Einklang.</target>
+            </trans-unit>
+            <trans-unit id="nosrealisations">
+                <source>Découvrir nos dernières réalisations.</source>
+                <target>Entdecken Sie unsere neuesten Projekte.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

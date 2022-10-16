@@ -443,6 +443,20 @@
                 <source>paginator.current</source>
                 <target>(current)</target>
             </trans-unit>
+            <!--=====================================-->
+            <!--=        General TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="en.savoir-plus">
+                <source>En savoir plus</source>
+                <target>Read more</target>
+            </trans-unit>
+            <trans-unit id="voirnosoffres">
+                <source>Voir nos offres</source>
+                <target>See our offers</target>
+            </trans-unit>
+            <!--=====================================-->
+            <!--=        Menu TRANS       =-->
+            <!--=====================================-->
 
             <trans-unit id="accueil">
                 <source>Accueil</source>
@@ -452,15 +466,61 @@
                 <source>Services</source>
                 <target>Our services</target>
             </trans-unit>
+            <trans-unit id="projet">
+                <source>Nos projets</source>
+                <target>Our projects</target>
+            </trans-unit>
+            <trans-unit id="blog">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
+            <trans-unit id="contact">
+                <source>Contact</source>
+                <target>Contact</target>
+            </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
                 <source>Une offre vidéo</source>
                 <target>A customised video offer</target>
             </trans-unit>
-            <trans-unit id="home">
-                <source>Home</source>
-                <target>Accueil</target>
+            <!--=====================================-->
+            <!--=        Services TRANS       =-->
+            <!--=====================================-->
+            <trans-unit id="repartissez">
+                <source>Répartissez votre investissement</source>
+                <target>Spread your investment</target>
             </trans-unit>
-
+            <trans-unit id="multipliez">
+                <source>Multipliez le contenu</source>
+                <target>Multiply the content</target>
+            </trans-unit>
+            <trans-unit id="reactivite">
+                <source>Réactivité</source>
+                <target>Reactivity</target>
+            </trans-unit>
+            <trans-unit id="reactivite.2">
+                <source>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</source>
+                <target>Media and fashion trends are constantly evolving, subscription guarantees you adaptability and reactivity.</target>
+            </trans-unit>
+            <trans-unit id="contenu">
+                <source>Contenu</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="contenu.2">
+                <source>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</source>
+                <target>More content means more opportunities to communicate about all aspects of your business, without limits.</target>
+            </trans-unit>
+            <trans-unit id="equilibre">
+                <source>Equilibre</source>
+                <target>Balance</target>
+            </trans-unit>
+            <trans-unit id="equilibre.2">
+                <source>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</source>
+                <target>Our offer strikes the right balance between content quality, production frequency and your initial costs.</target>
+            </trans-unit>
+            <trans-unit id="nosrealisations">
+                <source>Découvrir nos dernières réalisations.</source>
+                <target>Discover our latest projects.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
