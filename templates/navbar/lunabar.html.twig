@@ -4,8 +4,8 @@
                 <div class="container-fluid">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="{{path('home')}}"><img class="light-version-logo" src="../../media/logo2.svg" width="75%" alt="logo"></a>
-                            <a href="{{path('home')}}"><img class="dark-version-logo" src="../../media/logo2.svg" width="75%" alt="logo"></a>
+                            <a href="{{path('home')}}"><img class="light-version-logo" src="../../media/logo2.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="60%" alt="logo"></a>
+                            <a href="{{path('home')}}"><img class="dark-version-logo" src="../../media/logo4.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="60%" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
@@ -14,8 +14,8 @@
                                     <div class="mobile-nav-header">
                                         <div class="mobile-nav-logo">
                                             <a href="{{path('home')}}">
-                                                <img class="light-mode" src="../../media/lunari-logo.png" alt="Site Logo">
-                                                <img class="dark-mode" src="../../media/lunari-logo.png"" alt="Site Logo">
+                                                <img class="light-mode" src="../../media/logo2.svg" alt="Site Logo">
+                                                <img class="dark-mode" src="../../media/logo4.svg" alt="Site Logo">
                                             </a>
                                         </div>
                                         <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
@@ -40,9 +40,9 @@
                             <!-- End Mainmanu Nav -->
                         </div>
 
-                        <div class="dropdown text-end mx-4">
+                        <div class="dropdown text-end mx-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="{{ asset('images/svg/flag/' ~ app.request.locale ~ '.svg') }}" alt="mdo" width="60" height="60" class="rounded-circle">
+                                <img src="{{ asset('images/svg/flag/' ~ app.request.locale ~ '.svg') }}" alt="mdo" width="60" height="60" class="rounded">
                             </a>
                             <ul class="dropdown-menu text-small">
                                  {% for locale in locales %}
@@ -52,7 +52,7 @@
                                 {% endfor %}          
                             </ul>
                         </div>
-                        <div class="header-action">
+                        <div class="header-action" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <ul class="list-unstyled">
                                 <li class="sidemenu-btn d-lg-block d-none">
                                     <button class="btn-wrap btn-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">

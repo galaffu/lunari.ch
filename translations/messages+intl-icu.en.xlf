@@ -479,8 +479,12 @@
                 <target>Contact</target>
             </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
-                <source>Une offre vidéo</source>
+                <source>Une solution sur-mesure</source>
                 <target>A customised video offer</target>
+            </trans-unit>
+            <trans-unit id="contenuVideo">
+                <source>Votre abonnement de contenu vidéo</source>
+                <target>Your video content subscription</target>
             </trans-unit>
             <!--=====================================-->
             <!--=        Services TRANS       =-->
@@ -521,6 +525,76 @@
                 <source>Découvrir nos dernières réalisations.</source>
                 <target>Discover our latest projects.</target>
             </trans-unit>
+            <!--=====================================-->
+            <!--=        Services Page       =-->
+            <!--=====================================-->
+            <trans-unit id="workflow">
+                <source>Un workflow revolutionnaire</source>
+                <target>Revolutionary workflow</target>
+            </trans-unit>
+            <trans-unit id="deleguez">
+                <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
+                <target>Delegate, save time and focus on the essentials.</target>
+            </trans-unit>
+            <trans-unit id="ser.vice">
+                <source>Service</source>
+                <target>Service</target>
+            </trans-unit>
+            <trans-unit id="entre.prise">
+                <source>Entreprise</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="evenementiel">
+                <source>Evenementiel</source>
+                <target>Events</target>
+            </trans-unit>
+            <trans-unit id="pub">
+                <source>Publicité et Promotion</source>
+                <target>Advertising et Promotion</target>
+            </trans-unit>
+            <trans-unit id="social">
+                <source>Réseaux sociaux</source>
+                <target>Social networks</target>
+            </trans-unit>
+            <trans-unit id="animation">
+                <source>Animation et VFX</source>
+                <target>Animation and VFX</target>
+            </trans-unit>
+            <trans-unit id="Educatif">
+                <source>Educatif</source>
+                <target>Education</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise">
+                <source>Film d’entreprise</source>
+                <target>Corporate film</target>
+            </trans-unit>
+            <trans-unit id="withemployee">
+                <source>Vidéo interview collaborateur et client</source>
+                <target>Video interview with employee and client</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise1">
+                <source>Présentez votre entreprise, vos valeurs, votre savoir-faire ainsi que vos collaborateurs dans un format de vidéo conçu entièrement sur-mesure afin de refléter au mieux ce qui vous rend unique.
+                                     Nous façonnons le style de la vidéo de la manière la plus juste possible afin que le résultat vous permette d’accomplir les objectifs souhaités.</source>
+                <target>Present your company, your values, your know-how and your employees in a video format that is entirely tailor-made to best reflect what makes you unique.
+                                     We shape the style of the video as accurately as possible so that the result allows you to achieve your desired objectives.</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise2">
+                <source>Profitez d’un des meilleurs outils de génération de prospects.
+                                     Souvent utilisé par les équipes marketing et commerciales pour communiquer, engager et convertir, il s’agit d’un moyen percutant d’augmenter la notoriété de votre marque ou d’unde vos services.</source>
+                <target>Take advantage of one of the best lead generation tools. Often used by marketing and sales teams to communicate, engage and convert, it is a powerful way to increase awareness of your brand or service.
+
+                </target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise3">
+                <source>Développez votre communication et attirez de nouveaux de clients en renforçant votre image avec des témoignages poignants de collaborateurs
+                                            ou bien avec des avis de satisfaction positifs de vos clients actifs.
+                                                Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion de vos équipes,
+                                                 la réussite de vos projets et les avantages à travailler au sein de votre organisation.</source>
+                <target>Develop your communication and attract new customers by reinforcing your image with poignant testimonials from employees or positive reviews from your active customers.
+                        Increase your chances of retaining employees and acquiring new ones by highlighting the cohesion of your teams, the success of your projects and the benefits of working within your organisation.
+                </target>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>

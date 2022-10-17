@@ -478,8 +478,12 @@
                 <target>Kontakt</target>
             </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
-                <source>Une offre vidéo</source>
-                <target>Ein maßgeschneidertes Videoangebot</target>
+                <source>Une solution sur-mesure</source>
+                <target>Eine maßgeschneiderte Lösung</target>
+            </trans-unit>
+            <trans-unit id="contenuVideo">
+                <source>Votre abonnement de contenu vidéo</source>
+                <target>Ihr Abonnement für Videoinhalte</target>
             </trans-unit>
             <!--=====================================-->
             <!--=        Services TRANS       =-->
@@ -519,6 +523,75 @@
             <trans-unit id="nosrealisations">
                 <source>Découvrir nos dernières réalisations.</source>
                 <target>Entdecken Sie unsere neuesten Projekte.</target>
+            </trans-unit>
+            <!--=====================================-->
+            <!--=        Services Page       =-->
+            <!--=====================================-->
+            <trans-unit id="workflow">
+                <source>Un workflow revolutionnaire</source>
+                <target>Revolutionärer Workflow</target>
+            </trans-unit>
+            <trans-unit id="deleguez">
+                <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
+                <target>Delegieren Sie, sparen Sie Zeit und konzentrieren Sie sich auf das Wesentliche.</target>
+            </trans-unit>
+            <trans-unit id="ser.vice">
+                <source>Service</source>
+                <target>Dienst</target>
+            </trans-unit>
+            <trans-unit id="entre.prise">
+                <source>Entreprise</source>
+                <target>Firma</target>
+            </trans-unit>
+            <trans-unit id="evenementiel">
+                <source>Evenementiel</source>
+                <target>Veranstaltungen</target>
+            </trans-unit>
+            <trans-unit id="pub">
+                <source>Publicité et Promotion</source>
+                <target>Werbung et Promotion</target>
+            </trans-unit>
+            <trans-unit id="social">
+                <source>Réseaux sociaux</source>
+                <target>Soziale Netzwerke</target>
+            </trans-unit>
+            <trans-unit id="animation">
+                <source>Animation et VFX</source>
+                <target>Animation und VFX</target>
+            </trans-unit>
+            <trans-unit id="Educatif">
+                <source>Educatif</source>
+                <target>Erzieherisch</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise">
+                <source>Film d’entreprise</source>
+                <target>Unternehmensfilm</target>
+            </trans-unit>
+            <trans-unit id="withemployee">
+                <source>Vidéo interview collaborateur et client</source>
+                <target>Video Interview Mitarbeiter und Kunde</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise1">
+                <source>Présentez votre entreprise, vos valeurs, votre savoir-faire ainsi que vos collaborateurs dans un format de vidéo conçu entièrement sur-mesure afin de refléter au mieux ce qui vous rend unique.
+                                     Nous façonnons le style de la vidéo de la manière la plus juste possible afin que le résultat vous permette d’accomplir les objectifs souhaités.</source>
+                <target>Präsentieren Sie Ihr Unternehmen, Ihre Werte, Ihr Know-how und Ihre Mitarbeiter in einem Videoformat, das ganz auf Ihre Bedürfnisse zugeschnitten ist, um das, was Sie einzigartig macht, am besten widerzuspiegeln.
+                                     Wir gestalten den Stil des Videos so passend wie möglich, damit das Ergebnis Ihnen hilft, die gewünschten Ziele zu erreichen.</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise2">
+                <source>Profitez d’un des meilleurs outils de génération de prospects.
+                                     Souvent utilisé par les équipes marketing et commerciales pour communiquer, engager et convertir, il s’agit d’un moyen percutant d’augmenter la notoriété de votre marque ou d’unde vos services.</source>
+                <target>Nutzen Sie eines der besten Tools zur Generierung von Leads. Es wird häufig von Marketing- und Vertriebsteams zur Kommunikation, Bindung und Konversion eingesetzt und ist ein wirkungsvolles Mittel, um den Bekanntheitsgrad Ihrer Marke oder Ihrer Dienstleistungen zu steigern.
+
+                </target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise3">
+                <source>Développez votre communication et attirez de nouveaux de clients en renforçant votre image avec des témoignages poignants de collaborateurs
+                                            ou bien avec des avis de satisfaction positifs de vos clients actifs.
+                                                Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion de vos équipes,
+                                                 la réussite de vos projets et les avantages à travailler au sein de votre organisation.</source>
+                <target>Erweitern Sie Ihre Kommunikation und ziehen Sie neue Kunden an, indem Sie Ihr Image mit bewegenden Berichten von Mitarbeitern oder mit positiven Bewertungen Ihrer aktiven Kunden stärken.
+                        Erhöhen Sie Ihre Chancen, Mitarbeiter zu halten und neue zu gewinnen, indem Sie den Zusammenhalt Ihrer Teams, den Erfolg Ihrer Projekte und die Vorteile der Arbeit in Ihrer Organisation hervorheben.
+                </target>
             </trans-unit>
         </body>
     </file>

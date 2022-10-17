@@ -1,0 +1,418 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ServiceController!{% endblock %}
+
+{% block body %}
+<body class="">
+
+
+    <div id="main-wrapper" class="main-wrapper">
+    {% include "navbar/lunabar.html.twig" %}
+
+        <!--=====================================-->
+        <!--=        Header Area Start       	=-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=       Breadcrumb Area Start       =-->
+        <!--=====================================-->
+        <div class="">
+            <div class="container-fluid text-center">
+                <div class="section-heading heading-center" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
+                    <h1 class="title h2">{{ 'Un workflow revolutionnaire' | trans}}</h1>
+                    <p>{{ 'Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.' | trans}}</p>
+                </div>
+                <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                    {# <iframe class="paralax-image" width="100%" height="345px" src="https://www.lunari.ch/video/immersionex.mp4" frameborder="1" allowfullscreen> #}
+                    <video controls autoplay class="paralax-image" src="https://www.lunari.ch/video/immersionex.mp4" width="80%" alt="Illustration">
+                </div>
+            </div>
+            <ul class="shape-group-8 list-unstyled">
+                <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
+                    <img src="../../media/others/bubble-9.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="../../media/others/bubble-21.png" alt="Bubble">
+                </li>
+                <li class="shape shape-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                    <img src="../../media/others/line-4.png" alt="Line">
+                </li>
+            </ul>
+        </div>
+        <!--=====================================-->
+        <!--=        Service Area Start         =-->
+        <!--=====================================-->
+        <div class="service-scroll-navigation-area">
+            <!-- Service Nav -->
+            <nav id="onepagenav" class="service-scroll-nav navbar onepagefixed">
+                <div class="container">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">{{ 'Evenementiel' | trans}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">{{ 'Publicité et Promotion' | trans}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">{{ 'Réseaux sociaux' | trans}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section5">{{ 'Animation et VFX' | trans}}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section6">{{ 'Educatif' | trans}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Design Service -->
+            <div class="section" id="section1">
+                <div class="container mx-auto">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">{{ 'Entreprise' | trans}}</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-29.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-design.html">{{ 'Film d’entreprise' | trans}}</a></h5>
+                                    <p>{{ 'Présentez votre entreprise, vos valeurs, votre savoir-faire ainsi que vos collaborateurs dans un format de vidéo conçu entièrement sur-mesure afin de refléter au mieux ce qui vous rend unique.
+                                     Nous façonnons le style de la vidéo de la manière la plus juste possible afin que le résultat vous permette d’accomplir les objectifs souhaités.' | trans}}</p>
+                                    {# <a href="service-design.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-27.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-design.html">Webinar</a></h5>
+                                    <p>{{ 'Profitez d’un des meilleurs outils de génération de prospects.
+                                     Souvent utilisé par les équipes marketing et commerciales pour communiquer, engager et convertir, il s’agit d’un moyen percutant d’augmenter la notoriété de votre marque ou d’unde vos services.' | trans}}</p>
+                                    {# <a href="service-design.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-28.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-design.html">{{ 'Vidéo interview collaborateur et client' | trans}}</a></h5>
+                                    <p> {{ 'Développez votre communication et attirez de nouveaux de clients en renforçant votre image avec des témoignages poignants de collaborateurs
+                                            ou bien avec des avis de satisfaction positifs de vos clients actifs.
+                                                Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion de vos équipes,
+                                                 la réussite de vos projets et les avantages à travailler au sein de votre organisation.' | trans}}</p>
+                                    {# <a href="service-design.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        {# <div class="col-lg-10 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-4.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-design.html">Graphic/print design</a></h5>
+                                    <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
+                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                </div>
+                            </div>
+                        </div> #}
+                        {# <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-30.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-design.html">Video production</a></h5>
+                                    <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
+                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                </div>
+                            </div>
+                        </div> #}
+                    </div>
+                </div>
+            </div>
+            <!-- Development Service -->
+            <div class="section section-padding bg-color-light" id="section2">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">{{ 'Evenementiel' | trans}}</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-31.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-development.html">Captation d'événement</a></h5>
+                                    <p>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-32.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-development.html">Streaming</a></h5>
+                                    <p>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</p>
+                                    {# <a href="service-development.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-33.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-development.html">Vidéo aftermovie</a></h5>
+                                    <p>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</p>
+                                    {# <a href="service-development.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Online Marketing Service -->
+            <div class="section section-padding" id="section3">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">Publicité & Promotion</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-34.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-marketing.html">Vidéo publicitaire</a></h5>
+                                    <p>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant.</p>
+                                    <p>En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</p>
+                                    {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-36.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-marketing.html">Présentation de produit</a></h5>
+                                    <p>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit.</p>
+                                    <p>Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</p>
+                                    {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-37.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-marketing.html">Spot TV</a></h5>
+                                    <p>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo.</p>
+                                    <p>Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</p>
+                                    {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Business Service -->
+            <div class="section section-padding bg-color-light" id="section4">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">Réseaux sociaux</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-39.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-business.html">Campagne réseaux sociaux</a></h5>
+                                    <p>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</p>
+                                    {# <a href="service-business.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-40.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-business.html">Présentation de produit</a></h5>
+                                    <p>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</p>
+                                    {# <a href="service-business.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-41.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-business.html">Automatisation Instagram</a></h5>
+                                    <p>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</p>
+                                    {# <a href="service-business.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        {# <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-42.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-business.html">Reporting</a></h5>
+                                    <p>We design professional looking yet Mobile Apps. Our designs are search engine
+                                        and user friendly. </p>
+                                    <a href="service-business.html" class="more-btn">Find out more</a>
+                                </div>
+                            </div>
+                        </div> #}
+                    </div>
+                </div>
+            </div>
+            <!-- Technology Service -->
+            <div class="section section-padding" id="section5">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">Animation & VFX</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-43.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-technology.html">Vidéo animation 2D/3D</a></h5>
+                                    <p>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</p>
+                                    {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-44.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-technology.html">Effets visuels - VFX</a></h5>
+                                    <p>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</p>
+                                    {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-44.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-technology.html">Vidéo interactive</a></h5>
+                                    <p>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</p>
+                                    {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content strategy Service -->
+            <div class="section section-padding bg-color-light" id="section6">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{ 'Service' | trans}}</span>
+                        <h2 class="title">Educatif</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-45.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-content-strategy.html">Vidéo tutoriel / didactielle</a></h5>
+                                    <p>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés.
+                                    Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.
+                                    </p>
+                                    {# <a href="service-content-strategy.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-46.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-content-strategy.html">Vidéo de formation</a></h5>
+                                    <p>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</p>
+                                    {# <a href="service-content-strategy.html" class="more-btn">Find out more</a> #}
+                                </div>
+                            </div>
+                        </div>
+                        {# <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div class="services-grid service-style-2">
+                                <div class="thumbnail">
+                                    <img src="../../media/icon/icon-47.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"> <a href="service-content-strategy.html">Advertising Strategy</a></h5>
+                                    <p>Promoting your products and services online requires cutting-edge organic and paid search strategies to rise</p>
+                                    <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                                </div>
+                            </div>
+                        </div> #}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=====================================-->
+        <!--=     Call To Action Area Start     =-->
+        <!--=====================================-->
+               {% include "partials/contact.html.twig" %}
+
+        <!--=====================================-->
+        <!--=        Footer Area Start       	=-->
+        <!--=====================================-->
+        {% include "partials/footer.html.twig" %}
+
+        <!--=====================================-->
+        <!--=       Offcanvas Menu Area       	=-->
+        <!--=====================================-->
+        {# {% include "partials/menu.html.twig" %} #}
+
+</body>
+{% endblock %}

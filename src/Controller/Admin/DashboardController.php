@@ -82,13 +82,21 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Nos projets vidéos', 'fas fa-book', Projet::class)
         ->setPermission('ROLE_ADMIN');
 
-        yield MenuItem::section('Mission')
-        ->setPermission('ROLE_FREELANCE, ROLE_ADMIN');
+        yield MenuItem::section('Mission');
+        // ->setPermission('ROLE_FREELANCE, ROLE_ADMIN');
 
-        yield MenuItem::linkToCrud('Missions', 'fas fa-book', Mission::class)
-        ->setPermission('ROLE_ADMIN');
+        yield MenuItem::section('Mission');
+        yield MenuItem::subMenu('Mes missions', 'fa fa-article')->setSubItems([
+            MenuItem::linkToCrud("Liste des missions", null, Mission::class)
+            ->setPermission('ROLE_FREELANCE'),
+            MenuItem::linkToCrud("Ajouter un article", null, Mission::class)->setAction('new')
+            ->setPermission('ROLE_ADMIN'),
+        ]);
+
+        // yield MenuItem::linkToCrud('Missions', 'fas fa-book', Mission::class)
+        // ->setPermission('ROLE_FREELANCE');
         
-        yield MenuItem::linkToCrud('Mes missions', 'fas fa-book', Mission::class)
-        ->setPermission('ROLE_FREELANCE');
+        // yield MenuItem::linkToCrud('Mes missions', 'fas fa-book', Mission::class)
+        // ->setPermission('ROLE_FREELANCE');
     }
 }

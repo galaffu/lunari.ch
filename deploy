@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -av ./ pb5kd_fufette@preprod.lunari.ch:~/preprod.lunari.ch --include=public/build --include=public/.htaccess --include=vendor --exclude=".*"
