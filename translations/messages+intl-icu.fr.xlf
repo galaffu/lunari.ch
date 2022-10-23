@@ -591,6 +591,107 @@
                         Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion devos équipes, la réussite de vos projets et les avantages à travailler au sein de votre organisation.
                 </target>
             </trans-unit>
+            <trans-unit id="captation">
+                <source>Captation d'événement</source>
+                <target>Captation d'événement</target>
+            </trans-unit>
+            <trans-unit id="captation1">
+                <source>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</source>
+                <target>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</target>
+            </trans-unit>
+            <trans-unit id="captation2">
+                <source>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</source>
+                <target>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</target>
+            </trans-unit>
+            <trans-unit id="captation4">
+                <source>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</source>
+                <target>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo">
+                <source>Publicité et Promotion</source>
+                <target>Publicité et Promotion</target>
+            </trans-unit>
+            <trans-unit id="pubPromo1">
+                <source>Vidéo publicitaire</source>
+                <target>Vidéo publicitaire</target>
+            </trans-unit>
+            <trans-unit id="pubPromo2">
+                <source>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</source>
+                <target>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo3">
+                <source>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</source>
+                <target>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo4">
+                <source>Présentation de produit</source>
+                <target>Présentation de produit</target>
+            </trans-unit>
+            <trans-unit id="pubPromo5">
+                <source>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</source>
+                <target>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork">
+                <source>Campagne réseaux sociaux</source>
+                <target>Campagne réseaux sociaux</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork1">
+                <source>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</source>
+                <target>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork2">
+                <source>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</source>
+                <target>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork3">
+                <source>Automatisation Instagram</source>
+                <target>Automatisation Instagram</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork4">
+                <source>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</source>
+                <target>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</target>
+            </trans-unit>
+            <trans-unit id="vfx">
+                <source>Vidéo animation 2D/3D</source>
+                <target>Vidéo animation 2D/3D</target>
+            </trans-unit>
+            <trans-unit id="vfx1">
+                <source>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</source>
+                <target>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</target>
+            </trans-unit>
+            <trans-unit id="vfx2">
+                <source>Effets visuels - VFX</source>
+                <target>Effets visuels - VFX</target>
+            </trans-unit>
+            <trans-unit id="vfx3">
+                <source>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</source>
+                <target>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</target>
+            </trans-unit>
+            <trans-unit id="vfx4">
+                <source>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</source>
+                <target>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</target>
+            </trans-unit>
+            <trans-unit id="vfx5">
+                <source>Effets visuels - VFX</source>
+                <target>Effets visuels - VFX</target>
+            </trans-unit>
+            <trans-unit id="edu">
+                <source>Vidéo tutoriel / didactielle</source>
+                <target>Vidéo tutoriel / didactielle</target>
+            </trans-unit>
+            <trans-unit id="edu1">
+                <source>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.</source>
+                <target>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.</target>
+            </trans-unit>
+            <trans-unit id="edu2">
+                <source>Vidéo de formation</source>
+                <target>Vidéo de formation</target>
+            </trans-unit>
+            <trans-unit id="edu3">
+                <source>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</source>
+                <target>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</target>
+            </trans-unit>
+
         </body>
     </file>
 </xliff>

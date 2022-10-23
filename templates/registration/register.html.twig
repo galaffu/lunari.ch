@@ -3,15 +3,41 @@
 {% block title %}Register{% endblock %}
 
 {% block body %}
-    <h1>Register</h1>
+    <div id="fullBg">
+        <div class="container mx-auto pt-5">
+            <div class="d-flex flex-lg-row flex-column-reverse pt-5">
+                <div class="card card1">
+                    <div class="row justify-content-center my-auto">
+                        <div class="col-md-8 col-8 my-4">
+                            <div class="text-center"> 
+                                <img src="../../media/logo2.svg" width="65%">
+                            </div>
+                                {{ form_start(registrationForm) }}
+                                    {{ form_row(registrationForm.email) }}
+                                    {{ form_row(registrationForm.plainPassword, {
+                                        label: 'Password'
+                                    }) }}
+                                    {# {{ form_row(registrationForm.agreeTerms) }} #}
 
-    {{ form_start(registrationForm) }}
-        {{ form_row(registrationForm.email) }}
-        {{ form_row(registrationForm.plainPassword, {
-            label: 'Password'
-        }) }}
-        {{ form_row(registrationForm.agreeTerms) }}
-
-        <button type="submit" class="btn">Register</button>
-    {{ form_end(registrationForm) }}
+                                    <button type="submit" class="btn"></button>
+                            </div>
+                        </div>
+                        <div class="bottom text-center mb-5">
+                            <div class="sm-text mx-auto mb-3 px-4"> 
+                                <button type="submit" class="btn btn-white">
+                                        Créer un compte
+                                </button> 
+                            </div>
+                                {{ form_end(registrationForm) }}
+                            <div class="row justify-content-center my-2"> <a href="{{path('app_login')}}"><small class="text-muted">Vous avez déjà un compte ?</small></a> </div>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="my-auto mx-md-5 px-md-5 right">
+                            <h2 class="text-white">Espace création de compte</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>                     
+        </div>
 {% endblock %}

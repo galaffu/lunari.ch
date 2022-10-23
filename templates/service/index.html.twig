@@ -3,10 +3,8 @@
 {% block title %}Hello ServiceController!{% endblock %}
 
 {% block body %}
-<body class="">
 
 
-    <div id="main-wrapper" class="main-wrapper">
     {% include "navbar/lunabar.html.twig" %}
 
         <!--=====================================-->
@@ -24,7 +22,7 @@
                 </div>
                 <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
                     {# <iframe class="paralax-image" width="100%" height="345px" src="https://www.lunari.ch/video/immersionex.mp4" frameborder="1" allowfullscreen> #}
-                    <video controls autoplay class="paralax-image" src="https://www.lunari.ch/video/immersionex.mp4" width="80%" alt="Illustration">
+                    <video controls autoplay class="paralax-image" src="https://www.lunari.ch/video/immersionex.mp4" autoplay="false" muted="true" width="50%" alt="Illustration">
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -158,8 +156,8 @@
                                     <img src="../../media/icon/icon-31.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-development.html">Captation d'événement</a></h5>
-                                    <p>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</p>
+                                    <h5 class="title"> <a href="service-development.html">{{ 'Captation d\'événement' | trans}}</a></h5>
+                                    <p>{{ 'Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.' | trans}}</p>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +168,7 @@
                                 </div>
                                 <div class="content">
                                     <h5 class="title"> <a href="service-development.html">Streaming</a></h5>
-                                    <p>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</p>
+                                    <p>{{ 'Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.' | trans}}</p>
                                     {# <a href="service-development.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -181,8 +179,8 @@
                                     <img src="../../media/icon/icon-33.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-development.html">Vidéo aftermovie</a></h5>
-                                    <p>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</p>
+                                    <h5 class="title"> <a href="service-development.html">{{ 'Vidéo aftermovie' | trans}}</a></h5>
+                                    <p>{{ 'Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.' | trans}}</p>
                                     {# <a href="service-development.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -195,7 +193,7 @@
                 <div class="container">
                     <div class="section-heading heading-left">
                         <span class="subtitle">{{ 'Service' | trans}}</span>
-                        <h2 class="title">Publicité & Promotion</h2>
+                        <h2 class="title">{{ 'Publicité et Promotion' | trans}}</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -204,9 +202,8 @@
                                     <img src="../../media/icon/icon-34.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Vidéo publicitaire</a></h5>
-                                    <p>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant.</p>
-                                    <p>En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</p>
+                                    <h5 class="title"> <a href="service-marketing.html">{{ 'Vidéo publicitaire' | trans}}</a></h5>
+                                    <p>{{ 'Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.' | trans}}</p>
                                     {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -217,9 +214,8 @@
                                     <img src="../../media/icon/icon-36.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Présentation de produit</a></h5>
-                                    <p>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit.</p>
-                                    <p>Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</p>
+                                    <h5 class="title"> <a href="service-marketing.html">{{ 'Présentation de produit' | trans}}</a></h5>
+                                    <p>{{ 'Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.' | trans}}</p>
                                     {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -231,8 +227,7 @@
                                 </div>
                                 <div class="content">
                                     <h5 class="title"> <a href="service-marketing.html">Spot TV</a></h5>
-                                    <p>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo.</p>
-                                    <p>Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</p>
+                                    <p>{{ 'Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.' | trans}}</p>
                                     {# <a href="service-marketing.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -246,7 +241,7 @@
                 <div class="container">
                     <div class="section-heading heading-left">
                         <span class="subtitle">{{ 'Service' | trans}}</span>
-                        <h2 class="title">Réseaux sociaux</h2>
+                        <h2 class="title">{{ 'Réseaux sociaux' | trans}}</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -255,8 +250,8 @@
                                     <img src="../../media/icon/icon-39.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Campagne réseaux sociaux</a></h5>
-                                    <p>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</p>
+                                    <h5 class="title"> <a href="service-business.html">{{ 'Campagne réseaux sociaux' | trans}}</a></h5>
+                                    <p>{{ 'Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.' | trans}}</p>
                                     {# <a href="service-business.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -267,8 +262,8 @@
                                     <img src="../../media/icon/icon-40.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Présentation de produit</a></h5>
-                                    <p>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</p>
+                                    <h5 class="title"> <a href="service-business.html">{{ 'Présentation de produit' | trans}}</a></h5>
+                                    <p>{{ 'Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.' | trans}}</p>
                                     {# <a href="service-business.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -279,8 +274,8 @@
                                     <img src="../../media/icon/icon-41.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Automatisation Instagram</a></h5>
-                                    <p>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</p>
+                                    <h5 class="title"> <a href="service-business.html">{{ 'Automatisation Instagram' | trans}}</a></h5>
+                                    <p>{{ 'Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d\'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.' | trans}}</p>
                                     {# <a href="service-business.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -306,7 +301,7 @@
                 <div class="container">
                     <div class="section-heading heading-left">
                         <span class="subtitle">{{ 'Service' | trans}}</span>
-                        <h2 class="title">Animation & VFX</h2>
+                        <h2 class="title">{{ 'Animation et VFX' | trans}}</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -315,8 +310,8 @@
                                     <img src="../../media/icon/icon-43.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-technology.html">Vidéo animation 2D/3D</a></h5>
-                                    <p>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</p>
+                                    <h5 class="title"> <a href="service-technology.html">{{ 'Vidéo animation 2D/3D' | trans}}</a></h5>
+                                    <p>{{ 'En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.' | trans}}</p>
                                     {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -327,8 +322,8 @@
                                     <img src="../../media/icon/icon-44.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-technology.html">Effets visuels - VFX</a></h5>
-                                    <p>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</p>
+                                    <h5 class="title"> <a href="service-technology.html">{{ 'Effets visuels - VFX' | trans}}</a></h5>
+                                    <p>{{ 'Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.' | trans}}</p>
                                     {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -339,8 +334,8 @@
                                     <img src="../../media/icon/icon-44.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-technology.html">Vidéo interactive</a></h5>
-                                    <p>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</p>
+                                    <h5 class="title"> <a href="service-technology.html">{{ 'Vidéo interractive' | trans}}</a></h5>
+                                    <p>{{ 'Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.' | trans}}</p>
                                     {# <a href="service-technology.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -353,7 +348,7 @@
                 <div class="container">
                     <div class="section-heading heading-left">
                         <span class="subtitle">{{ 'Service' | trans}}</span>
-                        <h2 class="title">Educatif</h2>
+                        <h2 class="title">{{ 'Educatif' | trans}}</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -362,9 +357,9 @@
                                     <img src="../../media/icon/icon-45.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-content-strategy.html">Vidéo tutoriel / didactielle</a></h5>
-                                    <p>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés.
-                                    Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.
+                                    <h5 class="title"> <a href="service-content-strategy.html">{{ 'Vidéo tutoriel / didactielle' | trans}}</a></h5>
+                                    <p>
+                                    {{ 'Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.' | trans}}
                                     </p>
                                     {# <a href="service-content-strategy.html" class="more-btn">Find out more</a> #}
                                 </div>
@@ -376,8 +371,8 @@
                                     <img src="../../media/icon/icon-46.png" alt="icon">
                                 </div>
                                 <div class="content">
-                                    <h5 class="title"> <a href="service-content-strategy.html">Vidéo de formation</a></h5>
-                                    <p>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</p>
+                                    <h5 class="title"> <a href="service-content-strategy.html">{{ 'Vidéo de formation' | trans}}</a></h5>
+                                    <p>{{ 'Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.' | trans}}</p>
                                     {# <a href="service-content-strategy.html" class="more-btn">Find out more</a> #}
                                 </div>
                             </div>
@@ -398,11 +393,10 @@
                 </div>
             </div>
         </div>
-
         <!--=====================================-->
         <!--=     Call To Action Area Start     =-->
         <!--=====================================-->
-               {% include "partials/contact.html.twig" %}
+        {% include "partials/contact.html.twig" %}
 
         <!--=====================================-->
         <!--=        Footer Area Start       	=-->
@@ -414,5 +408,4 @@
         <!--=====================================-->
         {# {% include "partials/menu.html.twig" %} #}
 
-</body>
 {% endblock %}

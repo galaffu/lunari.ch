@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FreelanceController!{% endblock %}
+
+{% block body %}
+{% include "navbar/lunabar.html.twig" %}
+{% include "partials/menu.html.twig" %}
+
+
+{# <pre>
+  {{ dump(missions) }}
+</pre> #}
+<div class="wrapper pt-4 pb-4">
+ <div class="container">
+    <div class="searched-jobs">
+    <div class="searched-bar">
+     <div class="searched-show">Mes missions</div>
+     {# <div class="searched-sort">Sort by: <span class="post-time">Newest Post </span><span class="menu-icon">▼</span></div> #}
+    </div>
+    <div class="job-cards">
+{% for mission in missions %}
+    <div class="job-card">
+      <div class="job-card-header">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="background-color:#f76754">
+        <path xmlns="http://www.w3.org/2000/svg" d="M0 .5h4.2v23H0z" fill="#042b48" data-original="#212121" />
+        <path xmlns="http://www.w3.org/2000/svg" d="M15.4.5a8.6 8.6 0 100 17.2 8.6 8.6 0 000-17.2z" fill="#fefefe" data-original="#f4511e" /></svg>
+       <div class="menu-dot"></div>
+      </div>
+      {% for clientMission in mission %}
+      <div class="job-card-title">{{mission.client}}</div>        
+      {% endfor %}
+      <div class="job-card-title">{{mission.lieu}}</div>
+      <div class="job-card-subtitle">
+       {{mission.description}}
+      </div>
+      <div class="job-detail-buttons">
+       <button class="search-buttons detail-button">{{mission.dateDebut|date('d-m-Y H:i:s')}}</button>
+       <button class="search-buttons detail-button">{{mission.dateFin|date('d-m-Y H:i:s')}}</button>
+      </div>
+      <div class="job-card-buttons">
+       <button class="search-buttons card-buttons">Apply Now</button>
+       <button class="search-buttons card-buttons-msg">Messages</button>
+      </div>
+     </div>
+{% endfor %}
+ 
+
+   </div>
+ </div>
+</div>
+</div>
+{% include "partials/credentials.html.twig" %}
+
+{% endblock %}

@@ -39,6 +39,16 @@ class MissionRepository extends ServiceEntityRepository
         }
     }
 
+    public function findByUser($user)
+{
+    $qb = $this->createQueryBuilder('mission')
+        ->leftjoin ('mission.user','u')
+        ->where('u.id = :id')
+        ->setParameter('id', $user);
+        $query = $qb->getQuery();
+        $results = $query->getResult();
+        return $results;
+}
 //    /**
 //     * @return Mission[] Returns an array of Mission objects
 //     */

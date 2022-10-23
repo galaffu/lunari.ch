@@ -68,29 +68,22 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Utilisateurs', 'fas fa-user', User::class)
         ->setPermission('ROLE_ADMIN');
 
+        yield MenuItem::section('Client');
+        yield MenuItem::subMenu('Client', 'fa-regular fa-money-check-dollar')->setSubItems([
+            MenuItem::linkToCrud("Liste des clients", null, Projet::class),
+            MenuItem::linkToCrud("Ajouter un client", null, Projet::class)->setAction('new')
+        ]);
 
-
-        yield MenuItem::section('Client')
-        ->setPermission('ROLE_ADMIN');
-
-        yield MenuItem::linkToCrud('Client', 'fas fa-fill-drip', Client::class)
-        ->setPermission('ROLE_ADMIN');
-
-        yield MenuItem::section('Projet')
-        ->setPermission('ROLE_ADMIN');
-
-        yield MenuItem::linkToCrud('Nos projets vidéos', 'fas fa-book', Projet::class)
-        ->setPermission('ROLE_ADMIN');
+        yield MenuItem::section('Portfolio');
+        yield MenuItem::subMenu('Projet vidéo', 'fa-regular fa-circle-play',)->setSubItems([
+            MenuItem::linkToCrud("Liste des projets vidéos", null, Projet::class),
+            MenuItem::linkToCrud("Ajouter un projet vidéo", null, Projet::class)->setAction('new')
+        ]);
 
         yield MenuItem::section('Mission');
-        // ->setPermission('ROLE_FREELANCE, ROLE_ADMIN');
-
-        yield MenuItem::section('Mission');
-        yield MenuItem::subMenu('Mes missions', 'fa fa-article')->setSubItems([
-            MenuItem::linkToCrud("Liste des missions", null, Mission::class)
-            ->setPermission('ROLE_FREELANCE'),
+        yield MenuItem::subMenu('Mission', 'fa-regular fa-note-sticky',)->setSubItems([
+            MenuItem::linkToCrud("Liste des missions", null, Mission::class),
             MenuItem::linkToCrud("Ajouter un article", null, Mission::class)->setAction('new')
-            ->setPermission('ROLE_ADMIN'),
         ]);
 
         // yield MenuItem::linkToCrud('Missions', 'fas fa-book', Mission::class)

@@ -37,9 +37,9 @@ class MissionCrudController extends AbstractCrudController
     {
         return $actions
             // ...
-            ->setPermission(Action::NEW, 'ROLE_FREELANCE')
-            ->setPermission(Action::DELETE, 'ROLE_FREELANCE')
-            ->setPermission(Action::INDEX, 'ROLE_FREELANCE')
+            ->setPermission(Action::NEW, 'ROLE_ADMIN')
+            ->setPermission(Action::DELETE, 'ROLE_ADMIN')
+            ->setPermission(Action::INDEX, 'ROLE_ADMIN')
         ;
     }
     

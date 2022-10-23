@@ -31,6 +31,9 @@ class Mission
     #[ORM\ManyToMany(targetEntity: User::class, inversedBy: 'missions')]
     private Collection $user;
 
+    #[ORM\Column(type: Types::TEXT)]
+    private ?string $description = null;
+
     public function __construct()
     {
         $this->client = new ArrayCollection();
@@ -128,6 +131,18 @@ class Mission
     public function removeUser(user $user): self
     {
         $this->user->removeElement($user);
+
+        return $this;
+    }
+
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
+
+    public function setDescription(string $description): self
+    {
+        $this->description = $description;
 
         return $this;
     }

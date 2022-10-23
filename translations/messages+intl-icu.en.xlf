@@ -594,7 +594,106 @@
                         Increase your chances of retaining employees and acquiring new ones by highlighting the cohesion of your teams, the success of your projects and the benefits of working within your organisation.
                 </target>
             </trans-unit>
-
+            <trans-unit id="captation">
+                <source>Captation d'événement</source>
+                <target>Event recording</target>
+            </trans-unit>
+            <trans-unit id="captation1">
+                <source>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</source>
+                <target>Fully recording all the events you organise not only provides you with new content to use for future videos, but also enhances your professionalism with guests and your audience, who will then have exclusive access to the highlights of your company's events.</target>
+            </trans-unit>
+            <trans-unit id="captation2">
+                <source>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</source>
+                <target>Take your event capture to the next level with streaming by turning it into an instant live broadcast on as many social networks as you want. Streaming gives you the opportunity to create significant audience preparation to maximise impact and viewer interaction.</target>
+            </trans-unit>
+            <trans-unit id="captation3">
+                <source>Vidéo aftermovie</source>
+                <target>Aftermovie</target>
+            </trans-unit>
+            <trans-unit id="captation4">
+                <source>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</source>
+                <target>Immortalise the highlights of your event, incorporate interventions in the form of interviews with guests or your staff. This format allows you to obtain an energetic, short and effective summary to enhance your company's image.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo">
+                <source>Publicité et Promotion</source>
+                <target>Advertising and Promotion</target>
+            </trans-unit>
+            <trans-unit id="pubPromo1">
+                <source>Vidéo publicitaire</source>
+                <target>Advertising video</target>
+            </trans-unit>
+            <trans-unit id="pubPromo2">
+                <source>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</source>
+                <target>This video format allows you to generate attention and excitement among your target audience for a product or service you wish to promote. By making a video that intensely captures the attention of your audience, your company's recognition grows strongly.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo3">
+                <source>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</source>
+                <target>Create a short, engaging video that correctly and effectively explains the features of your product. You have a video that aims to provide relevant information and value to your audience by consistently taking a unique, focused approach to the problem your product solves.</target>
+            </trans-unit>
+            <trans-unit id="pubPromo4">
+                <source>Présentation de produit</source>
+                <target>Product overview</target>
+            </trans-unit>
+            <trans-unit id="pubPromo5">
+                <source>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</source>
+                <target>Create and build trust with one of the most powerful tools in video communication. Together we develop the ideal format for the target audience and optimise the video according to the objectives set beforehand.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork">
+                <source>Campagne réseaux sociaux</source>
+                <target>Social media campaign</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork1">
+                <source>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</source>
+                <target>Your communication needs a properly established structure and plan, with clear objectives, a strategic route and a regular and sustainable operation. Using our strategic creation and planning as well as tactical implementation services will allow you to successfully achieve these goals.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork2">
+                <source>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</source>
+                <target>Your creative campaign deserves the best possible resources to feed your communication, whether it is on your website or your social networks. With Lunari, you can choose between animated content, videos, photographs, graphic illustrations and many other resources that are essential to a rich content for your communication.</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork3">
+                <source>Automatisation Instagram</source>
+                <target>Instagram automation</target>
+            </trans-unit>
+            <trans-unit id="socialNetwork4">
+                <source>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</source>
+                <target>Take advantage of one of our latest IT advances with our system offering a wide variety of filters and customisation options to help you increase the number of followers, likes and comments on Instagram.</target>
+            </trans-unit>
+            <trans-unit id="vfx">
+                <source>Vidéo animation 2D/3D</source>
+                <target>2D/3D video animation</target>
+            </trans-unit>
+            <trans-unit id="vfx1">
+                <source>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</source>
+                <target>As well as providing instantly recognisable and unique content, animation opens the door to endless possibilities and limitless creativity. Choose 2D animation for a faster, more cost-effective workflow, or choose 3D animation for a more realistic rendering that can also be turned into interactive content.</target>
+            </trans-unit>
+            <trans-unit id="vfx2">
+                <source>Effets visuels - VFX</source>
+                <target>Visual effects - VFX</target>
+            </trans-unit>
+            <trans-unit id="vfx3">
+                <source>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</source>
+                <target>Enhance the style and creativity of standard videos by adding custom visual effects. The use of green screen, integration of 3D elements, background changes, removal of objects or people and many other specialties can be added to your video projects to give them more originality and impact.</target>
+            </trans-unit>
+            <trans-unit id="vfx4">
+                <source>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</source>
+                <target>With interactive video, the viewer becomes a user who can make decisions and thus have a sense of control. Videos can be structured to perfectly match target groups. The major advantage of this type of content is that it generates a drastically higher engagement with the audience, which increases the chances of return on investment.</target>
+            </trans-unit>
+            <trans-unit id="edu">
+                <source>Vidéo tutoriel / didactielle</source>
+                <target>Video tutorial / tutorial</target>
+            </trans-unit>
+            <trans-unit id="edu1">
+                <source>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.</source>
+                <target>Create a video that is both explanatory and entertaining, and get rich content that will have the potential to be used and consumed over and over again by your audience and your employees. With Lunari, you can easily create videos on simple or more complex topics that need to be presented to an audience.</target>
+            </trans-unit>
+            <trans-unit id="edu2">
+                <source>Vidéo de formation</source>
+                <target>Training video</target>
+            </trans-unit>
+            <trans-unit id="edu3">
+                <source>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</source>
+                <target>In order to strengthen the existing skills of your employees and to prepare the ground for the acquisition of new employees, Lunari helps you to develop the perfect content to educate, train and explain key concepts and working methods of your organisation.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
