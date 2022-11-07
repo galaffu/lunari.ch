@@ -694,6 +694,308 @@
                 <source>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</source>
                 <target>In order to strengthen the existing skills of your employees and to prepare the ground for the acquisition of new employees, Lunari helps you to develop the perfect content to educate, train and explain key concepts and working methods of your organisation.</target>
             </trans-unit>
+
+
+
+            <trans-unit id="formules">
+                <source>3 Formules</source>
+                <target>3 Packages</target>
+            </trans-unit>
+            <trans-unit id="formules2">
+                <source>Pour atteindre vos objectifs</source>
+                <target>To reach your goals</target>
+            </trans-unit>
+            <trans-unit id="immersion">
+                <source>Notre service d'abonnement sur-mesure de production de contenu vidéo..</source>
+                <target>Our custom video content production subscription service...</target>
+            </trans-unit>
+            <trans-unit id="unity">
+                <source>Un projet individuel ? Vous avez à votre disposition tous les services qu'il vous faut..</source>
+                <target>An individual project? You have at your disposal all the services you need.</target>
+            </trans-unit>
+            <trans-unit id="lunix">
+                <source>Votre contenu, avec Lunix, vous filmez et nous réalisons le montage de vos vidéos..</source>
+                <target>Your content, with Lunix, you film and we edit your videos.</target>
+            </trans-unit>
+            <trans-unit id="confiance">
+                <source>Ils nous font confiance</source>
+                <target>They trust us</target>
+            </trans-unit>
+            <trans-unit id="confiance2">
+                <source>Pour la réalisation de leur vidéo</source>
+                <target>For the production of their video </target>
+            </trans-unit>
+            <trans-unit id="avisClient">
+                <source>Avis clients</source>
+                <target>Customer reviews</target>
+            </trans-unit>
+            <trans-unit id="avisClient2">
+                <source>Ce qu'on dit de nous</source>
+                <target>What they say about us</target>
+            </trans-unit>
+            <trans-unit id="avisClient3">
+                <source>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérite et généré des leads.</source>
+                <target>You too can get the tailored video offer your business deserves and generate leads.</target>
+            </trans-unit>
+            <trans-unit id="champion">
+                <source>Des jeunes motivés et très sympathiques, la classe.</source>
+                <target>Motivated and very friendly young people, a class act.</target>
+            </trans-unit>
+            <trans-unit id="Golay">
+                <source>Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.</source>
+                <target>Very nice collaboration that gave birth to two high quality videos. Thanks to the Lunari team.</target>
+            </trans-unit>
+            <trans-unit id="Suchet">
+                <source>J'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J'ai apprécié l'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo.</source>
+                <target>I worked with Lunari on the video project for the renovation of the International Labour Office by Steiner SA. I appreciated the professional guidance of this agency as well as its flexibility throughout the project. Lunari was also able to integrate motion design elegantly into the video.</target>
+            </trans-unit>
+            <trans-unit id="comment">
+                <source>Comment pouvons-nous vous aider ?</source>
+                <target>How can we help you?</target>
+            </trans-unit>
+            <trans-unit id="projetvideo">
+                <source>Un projet vidéo ?</source>
+                <target>A video project?</target>
+            </trans-unit>
+            <trans-unit id="demanderdevis">
+                <source>Demander un devis</source>
+                <target>Get a quote</target>
+            </trans-unit>
+            <trans-unit id="newsletter">
+                <source>Notre newsletter</source>
+                <target>Our newsletter</target>
+            </trans-unit>
+            <trans-unit id="newsletter2">
+                <source>Pour ne louper aucune de nos dernières actualités..</source>
+                <target>So you don't miss any of our latest news..</target>
+            </trans-unit>
+            <trans-unit id="souscrire">
+                <source>Souscrire</source>
+                <target>Subscribe</target>
+            </trans-unit>
+            <trans-unit id="nosolutions">
+                <source>Nos solutions</source>
+                <target>Our solutions</target>
+            </trans-unit>
+            <trans-unit id="offreunity">
+                <source>Offre Unity</source>
+                <target>Offre Unity</target>
+            </trans-unit>
+            <trans-unit id="aboimmersion">
+                <source>Abonnement Immersion</source>
+                <target>Abonnement Immersion</target>
+            </trans-unit>
+            <trans-unit id="abolunix">
+                <source>Abonnement Lunix</source>
+                <target>Abonnement Lunix</target>
+            </trans-unit>
+            <trans-unit id="Support">
+                <source>Support</source>
+                <target>Support</target>
+            </trans-unit>
+            <trans-unit id="politiques">
+                <source>Politique de confidentialité</source>
+                <target>Privacy Policy</target>
+            </trans-unit>
+            <trans-unit id="termes">
+                <source>Termes et conditions d'utilisations</source>
+                <target>Terms and conditions of use</target>
+            </trans-unit>
+            <trans-unit id="droits">
+                <source>© 2022. Tous droits réservés à</source>
+                <target>© 2022. All rights reserved to</target>
+            </trans-unit>
+
+
+
+            <trans-unit id="deleque">
+                <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
+                <target>Delegate, save time and focus on the essentials.</target>
+            </trans-unit>
+            <trans-unit id="deleque2">
+                <source>Qu'est-ce que Lunix ?</source>
+                <target>What is Lunix?</target>
+            </trans-unit>
+            <trans-unit id="deleque3">
+                <source>Lunix est une solution qui vous permet de réaliser vous-même vos vidéos et de nous en confier le montage. Elle met à votre disposition la possibilité de louer nos kits de matériel professionnels ainsi qu’une équipe de montage vidéo qui vous permet d’optimiser et accélérer votre processus de création de contenu.</source>
+                <target>What is Lunix Lunix is a solution that allows you to make your own videos and entrust us with the editing. It offers you the possibility of renting our professional equipment kits and a video editing team that allows you to optimise and accelerate your content creation process.</target>
+            </trans-unit>
+            <trans-unit id="deleque4">
+                <source>Pourquoi choisir Lunix ?</source>
+                <target>Why choose Lunix?</target>
+            </trans-unit>
+            <trans-unit id="deleque5">
+                <source>Recyclez !</source>
+                <target>Recycle!</target>
+            </trans-unit>
+            <trans-unit id="deleque6">
+                <source>Vous pouvez réutiliser tout le contenu que vous ne pensiez peut-être jamais utiliser en permettant à des monteurs dédiés d’en extraire le meilleur pour en réaliser une vidéo.</source>
+                <target>You can reuse all the content you may never have thought to use by allowing dedicated editors to extract the best from it and make a video.</target>
+            </trans-unit>
+            <trans-unit id="deleque7">
+                <source>Gain de temps</source>
+                <target>Saving time</target>
+            </trans-unit>
+            <trans-unit id="deleque8">
+                <source>Gagnez un temps précieux en déléguant le travail de post-production de vos vidéos</source>
+                <target>Save valuable time by delegating the post-production of your videos.</target>
+            </trans-unit>
+            <trans-unit id="deleque9">
+                <source>Formation complémentaire</source>
+                <target>Complementary training</target>
+            </trans-unit>
+            <trans-unit id="deleque10">
+                <source>Vous bénéficiez de cours individuels et d’une librairie de vidéos de formation pour améliorer vos compétences en réalisation et tournage.</source>
+                <target>You benefit from individual tuition and a library of training videos to improve your directing and filming skills.</target>
+            </trans-unit>
+            <trans-unit id="deleque11">
+                <source>Un pour tous, tous pour un</source>
+                <target>One for all, all for one</target>
+            </trans-unit>
+            <trans-unit id="deleque12">
+                <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
+                <target>Take advantage of the creative benefits of the synergy brought about by the collaboration of several trades working together on a single project.</target>
+            </trans-unit>
+            <trans-unit id="deleque13">
+                <source>Besoin de renfort ?</source>
+                <target>Do you need reinforcement?</target>
+            </trans-unit>
+            <trans-unit id="deleque14">
+                <source>Vous bénéficiez d’un accès permanent à notre réseau d’opérateurs caméra que vous pouvez solliciter lorsque vous avez besoin de renfort supplémentaire lors de vos tournages ou que vous ne pouvez être présent.</source>
+                <target>You have permanent access to our network of camera operators who you can call on when you need extra support during your shoots or when you cannot be present.</target>
+            </trans-unit>
+            <trans-unit id="deleque15">
+                <source>Faites du travail collaboratif un atout.</source>
+                <target>Make collaborative work an asset.</target>
+            </trans-unit>
+            <trans-unit id="deleque16">
+                <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
+                <target>By dividing up and allocating responsibility for the various production tasks, you unlock accelerated and optimal collaboration based on your expectations.</target>
+            </trans-unit>
+            <trans-unit id="deleque17">
+                <source>Donnez vies à vos idées.</source>
+                <target>Bring your ideas to life.</target>
+            </trans-unit>
+            <trans-unit id="deleque18">
+                <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
+                <target>Complete any project you can imagine without limits. Greatly improve your video content production chain</target>
+            </trans-unit>
+
+
+            <trans-unit id="lunarimmersion">
+                <source>Une solution sur mesure. Un abonnement de contenu vidéo</source>
+                <target>A tailor-made solution. A video content subscription</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion2">
+                <source>Qu'est-ce qu'Immersion ?</source>
+                <target>What is Immersion?</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion3">
+                <source>Immersion est une solution qui vous aide à accomplir vos objectifs entrepreneuriaux. Elle met à votre disposition la création de contenu vidéo qui vous permet d’informer, d’attirer de nouveaux clients, de développer votre réputation, d’augmenter vos ventes et de faire évoluer votre entreprise.</source>
+                <target>Immersion is a solution that helps you achieve your business goals. It provides you with the creation of video content that allows you to inform, attract new customers, develop your reputation, increase your sales and grow your business.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion4">
+                <source>Pourquoi choisir Immersion ?</source>
+                <target>Why choose Immersion?</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion5">
+                <source>Provoquez un impact durable.</source>
+                <target>Make a lasting impact.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion6">
+                <source>Offrez plus de valeur et de résultats sur le long terme avec un partage régulier de nouvelles vidéos uniques pour votre communication globale.</source>
+                <target>Deliver more value and results over the long term with regular sharing of new and unique videos for your global communication.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion7">
+                <source>Adaptez-vous à toutes les situations</source>
+                <target>Adapt to any situation</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion8">
+                <source>Adaptez-vous simplement comme vous le souhaitez en fonction de l’évolution des priorités commerciales, des opportunités client, et ce, au fur et à mesure qu’elles apparaissent.</source>
+                <target>Simply adapt as you see fit to changing business priorities, customer opportunities, and as they arise.
+                </target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion9">
+                <source>Créez de l’information continuellement</source>
+                <target>Create information continuously.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion10">
+                <source>Obtenez de meilleurs résultats de notoriété, d’engagement auprès de votre audience et ainsi de ventes, grâce à une fréquence accrue de diffusion du contenu vidéo créé.</source>
+                <target>Get better results in terms of awareness, engagement with your audience and thus sales, thanks to the increased frequency of distribution of the video content created.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion11">
+                <source>Un pour tous, tous pour un</source>
+                <target>One for all, all for one</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion12">
+                <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
+                <target>Take advantage of the creative benefits of the synergy brought about by the collaboration of several trades working together on a single project.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion14">
+                <source>Restez prêts pour l'avenir.</source>
+                <target>Stay prepared for the future.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion13">
+                <source>Relevez les opportunités de demain en intégrant dans votre entreprise une solution pour votre communication que vous pouvez modifier et adapter mois après mois.</source>
+                <target>Take advantage of tomorrow's opportunities by integrating a communication solution into your business that you can modify and adapt month after month.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion15">
+                <source>Faites du travail collaboratif un atout.</source>
+                <target>Make collaborative work an asset.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion16">
+                <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
+                <target>By dividing and allocating responsibility for the various production tasks, you unlock accelerated and optimal collaboration based on your expectations.
+                </target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion17">
+                <source>Donnez vies à vos idées.</source>
+                <target>Bring your ideas to life.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion18">
+                <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
+                <target>Complete any project you can imagine without limits. Greatly improve your video content production chain</target>
+            </trans-unit>
+            <trans-unit id="socialmenu">
+                <source>Nos réseaux sociaux</source>
+                <target>Our social networks</target>
+            </trans-unit>
+            <trans-unit id="contactmenu">
+                <source>Nous contacter</source>
+                <target>Contact us</target>
+            </trans-unit>
+            <trans-unit id="question">
+                <source>Une question ?</source>
+                <target>Any questions?</target>
+            </trans-unit>
+            <trans-unit id="demande">
+                <source>Une demande ?</source>
+                <target>A request?</target>
+            </trans-unit>
+            <trans-unit id="telephone">
+                <source>Téléphone</source>
+                <target>Phone</target>
+            </trans-unit>
+            <trans-unit id="notragence">
+                <source>Notre agence est ouverte du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h30.</source>
+                <target>Our office is open from Monday to Friday from 9am to 12pm and from 2pm to 5.30pm.</target>
+            </trans-unit>
+            <trans-unit id="notresupport">
+                <source>Notre support vous fournira une réponse sous 48h.</source>
+                <target>Our support team will provide you with an answer within 48 hours.</target>
+            </trans-unit>
+            <trans-unit id="real">
+                <source>Nos réalisations</source>
+                <target>Our work</target>
+            </trans-unit>
+            <trans-unit id="real2">
+                <source>Un aperçu de nos réalisations pour le compte de nos clients, retrouver des vidéos interviews, des vidéos d'entreprise ainsi que des spots publicitaires.</source>
+                <target>An overview of our achievements on behalf of our clients, find video interviews, corporate videos and commercials.</target>
+            </trans-unit>
+            <trans-unit id="test">
+                <source>test</source>
+                <target>test</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

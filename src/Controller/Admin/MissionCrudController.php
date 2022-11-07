@@ -64,6 +64,7 @@ class MissionCrudController extends AbstractCrudController
             yield DateTimeField::new('dateFin'),
             yield AssociationField::new('user')->setCrudController(User::class),
             yield AssociationField::new('client')->setCrudController(Client::class),
+            yield TextField::new('description'),
             // TextEditorField::new('description'),
         ];
     }

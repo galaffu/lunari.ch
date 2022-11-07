@@ -6,17 +6,17 @@
 
         
         {% include "navbar/lunabar.html.twig" %}
+        {% include "partials/menu.html.twig" %}
                        
-        
+            {#}test{#}
             <div class="container">
                 <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
-                    <h1 class="title h2">Our projects</h1>
-                    <p>A quick view of industry specific problems solved with design by the awesome team at Abstrak.</p>
+                    <h1 class="title h2">{{'Nos réalisations' | trans}}</h1>
+                    <p>{{'Un aperçu de nos réalisations pour le compte de nos clients, retrouver des vidéos interviews, des vidéos d\'entreprise ainsi que des spots publicitaires.' | trans}}</p>
                 </div>
                 <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                    <img class="paralax-image" src="../../media/banner/banner-thumb-1.png" alt="Illustration">
-                </div>
-            </div>
+                        <video controls autoplay class="paralax-image" src="{{unique.video}}" autoplay="false" muted="true" width="100%" alt="video-mise-en-avant">                    </div> 
+                    </div>
             <ul class="shape-group-8 list-unstyled">
                 <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
                     <img src="../../media/others/bubble-9.png" alt="Bubble">
@@ -31,7 +31,7 @@
         <!--=====================================-->
         <!--=       Projects  Area Start        =-->
         <!--=====================================-->
-        <section class="section section-padding-equal pt--200 pt_md--80 pt_sm--60">
+        {# <section class="section section-padding-equal pt--200 pt_md--80 pt_sm--60">
             <div class="container">
                 <div class="section-heading heading-left">
                     <span class="subtitle">Our Project</span>
@@ -54,20 +54,65 @@
                 <li class="shape shape-2"><img src="../../media/others/bubble-2.png" alt="Line"></li>
                 <li class="shape shape-3"><img src="../../media/others/bubble-1.png" alt="Line"></li>
             </ul>
-        </section>
+        </section> #}
         <!--=====================================-->
         <!--=     Call To Action Area Start     =-->
         <!--=====================================-->
         
+        <section class="section section-padding-2 bg-color-light">
+            <div class="container">
+                <div class="section-heading heading-left">
+                    <span class="subtitle">Portfolio</span>
+                    <h2 class="title">{{ 'Découvrir nos dernières réalisations.' | trans}}</h2>
+                </div>
+                <div class="axil-isotope-wrapper">
+                    {# <div class="isotope-button isotope-project-btn">
+                        <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
+                        <button data-filter=".branding"><span class="filter-text">Branding</span></button>
+                        <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+                    </div> #}
+                    <div class="row row-35 isotope-list">
+                        
+                     {% for projet in projets %}     
+
+                        <div class="col-md-6 project branding">
+                            <div class="project-grid">
+                                <div class="video-background">
+                                    <div class="video-foreground">
+                                    <iframe width="100%" height="375px" src="{{projet.video}}" frameborder="1" allowfullscreen>
+                                        {# <img src="{{ asset("./uploads/projets/" ~ projet.picture)|imagine_filter('thumb') }}" alt="project"> #}
+                                    </iframe>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title">{{projet.client}}</h4>
+                                    <h5 class="title">{{projet.titre}}</h5>
+                                    {# <span class="subtitle">Full Branding, Website, App</span> #}
+                                </div>
+                            </div>
+                        </div>
+
+                    {% endfor %} 
+     
+                    </div>
+                </div>
+                  <div class="d-flex justify-content-center mt-6">
+                        {% do projets.setPageRange(2) %}
+                        {{ knp_pagination_render(projets, 'partials/pagination.html.twig')}}
+                    </div>  
+            </div>
+            <ul class="shape-group-7 list-unstyled">
+                <li class="shape shape-1"><img src="../../media/others/circle-2.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="../../media/others/bubble-2.png" alt="Line"></li>
+                <li class="shape shape-3"><img src="../../media/others/bubble-1.png" alt="Line"></li>
+            </ul>
+        </section>
+
         {% include "partials/contact.html.twig" %}
 
         <!--=====================================-->
         <!--=        Footer Area Start       	=-->
         <!--=====================================-->
-        
-
-
-
 
         <!--=====================================-->
         <!--=       Offcanvas Menu Area       	=-->
@@ -125,4 +170,6 @@
             </div>
         </div>
     </div>
+
+    {% include "partials/footer.html.twig" %}
 {% endblock %}

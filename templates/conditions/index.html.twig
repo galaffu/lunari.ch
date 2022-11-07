@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+{% include "navbar/lunabar.html.twig" %}
+{% include "partials/menu.html.twig" %}
+<div class="">
+            <div class="container">
+                <div class="breadcrumb">
+                    <ul class="list-unstyled">
+                        <li><a href="{{path('home')}}">Home</a></li>
+                        <li class="active">Termes et conditions d'utilisations</li>
+                    </ul>
+                    <h1 class="title h2">Termes et conditions d'utilisations</h1>
+                </div>
+            </div>
+            {# <ul class="shape-group-8 list-unstyled">
+                <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
+                    <img src="../../media/others/bubble-9.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="../../media/others/bubble-11.png" alt="Bubble">
+                </li>
+                <li class="shape shape-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                    <img src="../../media/others/line-4.png" alt="Line">
+                </li>
+            </ul> #}
+        </div>
+        <!--=====================================-->
+        <!--=    Privacy Policy Area Start      =-->
+        <!--=====================================-->
+        <section class="section-padding privacy-policy-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="privacy-policy-content">
+                            <p>Bienvenu chez Lunari<br><br>
+                                Vous vous trouvez sur la page des mentions légales. <a href="{{path('home')}}">Revenir au site</a>.
+                                En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions.
+                                Ne continuez pas à utiliser Lunari.ch si vous n'acceptez pas l'ensemble des conditions générales énoncées sur cette page.
+                            </p>
+
+                            <h4>Cookies</h4>
+                            <p>
+                            Nous utilisons des cookies.
+                                En accédant au site lunari.ch, vous acceptez d'utiliser des cookies en accord avec la politique de confidentialité de Lunari.ch.
+                                La plupart des sites Web interactifs utilisent des cookies pour nous permettre de récupérer les détails de l'utilisateur à chaque visite. Les cookies sont utilisés par notre site Web pour permettre la fonctionnalité de certaines zones afin de faciliter la tâche des personnes qui visitent notre site Web.
+                            </p>
+                            <h4>
+                                Propriété du site
+                            </h4>
+                            <p>
+                             Lunari est une agence et une marque commerciale de la SARL LUNARI.
+                                Le site lunari.ch est la propriété de la SARL LUNARI, société de production Audiovisuelle et Cinématographique au capital de 20'000 CHF.
+                                Inscrite au RCS de Zurich, N° IDE CHE-213.736.614
+                                Le siège social est situé : Oberburgstrasse 10, 3400 Burgdorf, Suisse.
+                                Pour contacter la société : Email: info[at]lunari.ch
+                            </p>
+                            <h4>Développement et hébergement:</h4>
+                            <p>
+                            Le site internet a été développé via le framework PHP Symfony.
+                                Les contenus du site sont hebergés par Infomniak : Rue Eugène-Marziano 25 - 1227 Les Acacias – Suisse.
+                                Le domaine est hébergé par Infomaniak , Siège social de l’hébergeur : Rue Eugène-Marziano 25 - 1227 Les Acacias – Suisse.
+                                Conception: Sooft.ch / Galaffu Kévin
+                            </p>
+                            <h4>Droits de propriété intellectuelle:</h4>
+                            <p>
+                            Tous les éléments (textes, éléments graphiques, photos, images, vidéos, éléments sonores,…) contenus dans le site web sont protégés par le droit national et international de la propriété intellectuelle. Ces éléments restent la propriété exclusive d’iMagista et/ou de ses partenaires ayant-droits. A ce titre, sauf autorisation préalable et écrite de la part d’iMagista ou des ayants-droits, vous ne pouvez procéder à une quelconque reproduction, représentation, adaptation, traduction et/ou transformation partielle ou intégrale des éléments audiovisuels ou textes présents sur le site.
+                            <br><br>Le non-respect de cette interdiction peut constituer un acte de contrefaçon engageant vos responsabilités civiles et pénales. Conformément aux dispositions du Code de la propriété intellectuelle, seule est autorisée l’utilisation des éléments composant le site web à des fins strictement personnelles.
+                            <br><br>Les marques et logos reproduits sur ce site web sont la propriété exclusive d’iMagista et/ou de ses partenaires ayant-droits. Toute reproduction, réédition ou redistribution des noms, images films ou logos, par quelque moyen que ce soit, sans autorisation préalable et écrite de leur titulaire concerné est interdite par la loi. En cas de reproduction sans autorisation, même partielle, du nom, du logo, votre responsabilité civile et pénale peut être engagée.
+                            <br><br>L’exploitation, reproduction partielle ou totale de l’ensemble de ces éléments restent soumis a l’acceptation préalable d’iMagista et/ou des ayant-droits.
+                            <br><br>Le responsable du site internet https://www.lunari.ch est Monsieur Galaffu Kévin. En application du Code Suisse de la Propriété Intellectuelle et plus généralement des traités et accords internationaux comportant des dispositions relatives à la protection des droits d’auteurs, il est interdit de reproduire, de vendre, distribuer, émettre, diffuser, adapter, modifier, publier, communiquer intégralement ou partiellement, sous quelque forme que ce soit, les données, la présentation ou l’organisation du site sans une autorisation écrite au préalable.
+                            <br><br>Ce site utilise Google Analytics, un service d’analyse de site internet fourni par Google Inc. (« Google »). Google Analytics utilise des cookies , qui sont des fichiers texte placés sur votre ordinateur, pour aider le site internet à analyser l’utilisation du site par ses utilisateurs. Les données générées par les cookies concernant votre utilisation du site (y compris votre adresse IP) seront transmises et stockées par Google sur des serveurs situés aux Etats-Unis. Google utilisera cette information dans le but d’évaluer votre utilisation du site, de compiler des rapports sur l’activité du site à destination de son éditeur et de fournir d’autres services relatifs à l’activité du site et à l’utilisation d’Internet. Google est susceptible de communiquer ces données à des tiers en cas d’obligation légale ou lorsque ces tiers traitent ces données pour le compte de Google, y compris notamment l’éditeur de ce site. Google ne recoupera pas votre adresse IP avec toute autre donnée détenue par Google. Vous pouvez désactiver l’utilisation de cookies en sélectionnant les paramètres appropriés de votre navigateur. Cependant, une telle désactivation pourrait empêcher l’utilisation de certaines fonctionnalités de ce site. En utilisant ce site internet, vous consentez expressément au traitement de vos données nominatives par Google dans les conditions et pour les finalités décrites ci-dessus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% include "partials/footer.html.twig" %}
+{% endblock %}

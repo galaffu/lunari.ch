@@ -1,0 +1,188 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LunixController!{% endblock %}
+
+{% block body %}
+
+{% include "navbar/lunabar.html.twig" %}
+{% include "partials/menu.html.twig" %}
+            {#}test{#}
+
+<div class="">
+            <div class="container">
+                <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
+                    <h1 class="title h2">Lunari Immersion</h1>
+                    <p>{{'Une solution sur mesure. Un abonnement de contenu vidéo' | trans}}</p>
+                </div>
+                <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                    <video controls autoplay class="paralax-image" src="https://lunari.ch/video/immersionex.mp4" autoplay="false" muted="true" width="70%" alt="video-mise-en-avant">                    </div> 
+                </div>
+            </div>
+            <ul class="shape-group-8 list-unstyled">
+                <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
+                    <img src="../../media/others/bubble-9.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="../../media/others/bubble-21.png" alt="Bubble">
+                </li>
+                <li class="shape shape-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                    <img src="../../media/others/line-4.png" alt="Line">
+                </li>
+            </ul>
+        </div>
+        <!--=====================================-->
+        <!--=       Why Choose Area Start       =-->
+        <!--=====================================-->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="why-choose-us">
+                            <div class="section-heading heading-left">
+                                {# <span class="subtitle">About Us</span> #}
+                                <h3 class="title">{{'Qu\'est-ce qu\'Immersion ?' | trans}}</h3>
+                                <p>{{'Immersion est une solution qui vous aide à accomplir vos objectifs entrepreneuriaux. Elle met à votre disposition la création de contenu vidéo qui vous permet d’informer, d’attirer de nouveaux clients, de développer votre réputation, d’augmenter vos ventes et de faire évoluer votre entreprise.' | trans}}</p>
+                            </div>
+                             <div class="section-heading heading-left">
+                                {# <span class="subtitle">About Us</span> #}
+                                <h3 class="title">{{'Pourquoi choisir Immersion ?' | trans}}</h3>
+                            </div>
+                            <div class="accordion" id="choose-accordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            {{'Provoquez un impact durable.'| trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'Offrez plus de valeur et de résultats sur le long terme avec un partage régulier de nouvelles vidéos uniques pour votre communication globale.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            {{'Adaptez-vous à toutes les situations' | trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'Adaptez-vous simplement comme vous le souhaitez en fonction de l’évolution des priorités commerciales, des opportunités client, et ce, au fur et à mesure qu’elles apparaissent.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            {{'Créez de l’information continuellement' | trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'Obtenez de meilleurs résultats de notoriété, d’engagement auprès de votre audience et ainsi de ventes, grâce à une fréquence accrue de diffusion du contenu vidéo créé.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            {{'Un pour tous, tous pour un' | trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                        {{'Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            {{'Restez prêts pour l\'avenir.' | trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'Relevez les opportunités de demain en intégrant dans votre entreprise une solution pour votre communication que vous pouvez modifier et adapter mois après mois.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            {{'Faites du travail collaboratif un atout.' | trans}}
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            {{'Donnez vies à vos idées.' | trans}}
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#choose-accordion">
+                                        <div class="accordion-body">
+                                            {{'Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo' | trans}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 offset-xl-1">
+                        <div class="contact-form-box shadow-box mb--30">
+                            <h3 class="title">Une question ? <br>Une demande ?</h3>
+                            <form method="POST" class="axil-contact-form">
+                                {{ form_start(form) }}
+                                <div class="form-group">
+                                    <label>{{ form_label(form.name)}}</label>
+                                        {{form_widget(form.name)}}
+                                    {# <input type="text" class="form-control" name="contact-name"> #}
+                                </div>
+                                <div class="form-group">
+                                    <label>{{ form_label(form.lastName)}}</label>
+                                    {{form_widget(form.lastName)}}
+                                    {# <input type="text" class="form-control" name="contact-name"> #}
+                                </div>
+                                <div class="form-group">
+                                    <label>{{ form_label(form.email)}}</label>
+                                    {{form_widget(form.email)}}
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label>{{ form_label(form.message)}}</label>
+                                    {{form_widget(form.message)}}
+                                </div>
+                               
+                                <div class="mt-2">
+                                        {{form_widget(form.submit)}}
+                                </div>
+                                {# <div class="form-group">
+                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">
+                                    <label>{{ form_label(form.submit)}}</label>
+                                    {{form_widget(form.submit)}}
+                                    </button>
+                                </div> #}
+                                {{ form_end(form)}}
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=       Work Process Area Start     =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=     Call To Action Area Start     =-->
+        <!--=====================================-->
+       {% include "partials/contact.html.twig" %}
+       {% include "partials/footer.html.twig" %}
+{% endblock %}

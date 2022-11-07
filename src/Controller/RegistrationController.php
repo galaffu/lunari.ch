@@ -31,9 +31,13 @@ class RegistrationController extends AbstractController
                     $form->get('plainPassword')->getData()
                 )
             );
+            $user->setRoles(["ROLE_FREELANCE", "ROLE_USER"]);
+
+
 
             $entityManager->persist($user);
             $entityManager->flush();
+            return $this->redirectToRoute('app_register_freelance');
             // do anything else you need here, like send an email
 
             return $userAuthenticator->authenticateUser(

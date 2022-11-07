@@ -4,8 +4,8 @@
                 <div class="container-fluid">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="{{path('home')}}"><img class="light-version-logo" src="../../media/logo2.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="60%" alt="logo"></a>
-                            <a href="{{path('home')}}"><img class="dark-version-logo" src="../../media/logo4.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="60%" alt="logo"></a>
+                            <a href="{{path('home')}}"><img class="light-version-logo" src="../../media/logo2.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="55%" alt="logo"></a>
+                            <a href="{{path('home')}}"><img class="dark-version-logo" src="../../media/logo4.svg" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100" width="55%" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
@@ -31,9 +31,9 @@
                                     <li class="menu-item">
                                         <a href="{{path('portfolio')}}">{{'Nos projets' | trans}}</a>
                                     </li>
-                                    <li class="menu-item">
+                                    {# <li class="menu-item">
                                         <a href="{{path('blog')}}">{{'Blog' | trans}}</a>
-                                    </li>
+                                    </li> #}
                                     <li><a href="{{path('contact')}}">{{'Contact' | trans}}</a></li>
                                 </ul>
                             </nav>
@@ -42,7 +42,7 @@
 
                         <div class="dropdown text-end mx-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="{{ asset('images/svg/flag/' ~ app.request.locale ~ '.svg') }}" alt="mdo" width="60" height="60" class="rounded">
+                                <img src="{{ asset('images/svg/flag/' ~ app.request.locale ~ '.svg') }}" alt="mdo" width="50" height="50" class="rounded">
                             </a>
                             <ul class="dropdown-menu text-small">
                                  {% for locale in locales %}

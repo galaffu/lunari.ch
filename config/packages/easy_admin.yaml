@@ -1,0 +1,9 @@
+# config/packages/easy_admin.yaml
+easy_admin:
+    entities:
+        User:
+            # ...
+            list:
+                fields:
+                    # ...
+                  - { property: 'cv', template: 'pdf.html.twig', base_path: 'public/cv' }

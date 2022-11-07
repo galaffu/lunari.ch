@@ -6,6 +6,8 @@
 
 
     {% include "navbar/lunabar.html.twig" %}
+            {% include "partials/menu.html.twig" %}
+
 
         <!--=====================================-->
         <!--=        Header Area Start       	=-->
@@ -20,9 +22,9 @@
                     <h1 class="title h2">{{ 'Un workflow revolutionnaire' | trans}}</h1>
                     <p>{{ 'Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.' | trans}}</p>
                 </div>
-                <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                <div class="banner-thumbnail">
                     {# <iframe class="paralax-image" width="100%" height="345px" src="https://www.lunari.ch/video/immersionex.mp4" frameborder="1" allowfullscreen> #}
-                    <video controls autoplay class="paralax-image" src="https://www.lunari.ch/video/immersionex.mp4" autoplay="false" muted="true" width="50%" alt="Illustration">
+                    <video controls autoplay class="paralax-image" src="https://www.lunari.ch/video/immersionex.mp4" autoplay="false" muted="true" width="85%" alt="Illustration">
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -42,7 +44,7 @@
         <!--=====================================-->
         <div class="service-scroll-navigation-area">
             <!-- Service Nav -->
-            <nav id="onepagenav" class="service-scroll-nav navbar onepagefixed">
+            {# <nav id="onepagenav" class="service-scroll-nav navbar onepagefixed">
                 <div class="container">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
@@ -65,7 +67,7 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav> #}
             <!-- Design Service -->
             <div class="section" id="section1">
                 <div class="container mx-auto">
@@ -74,7 +76,7 @@
                         <h2 class="title">{{ 'Entreprise' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-29.png" alt="icon">
@@ -87,7 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-27.png" alt="icon">
@@ -100,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-28.png" alt="icon">
@@ -150,7 +152,7 @@
                         <h2 class="title">{{ 'Evenementiel' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-31.png" alt="icon">
@@ -161,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-32.png" alt="icon">
@@ -173,7 +175,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-33.png" alt="icon">
@@ -196,7 +198,7 @@
                         <h2 class="title">{{ 'Publicité et Promotion' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-34.png" alt="icon">
@@ -208,7 +210,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-36.png" alt="icon">
@@ -220,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-37.png" alt="icon">
@@ -244,7 +246,7 @@
                         <h2 class="title">{{ 'Réseaux sociaux' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-39.png" alt="icon">
@@ -256,7 +258,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-40.png" alt="icon">
@@ -268,7 +270,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-41.png" alt="icon">
@@ -304,7 +306,7 @@
                         <h2 class="title">{{ 'Animation et VFX' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-43.png" alt="icon">
@@ -316,7 +318,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-44.png" alt="icon">
@@ -328,7 +330,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-44.png" alt="icon">
@@ -351,7 +353,7 @@
                         <h2 class="title">{{ 'Educatif' | trans}}</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-45.png" alt="icon">
@@ -365,7 +367,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="col-lg-12 col-md-12">
                             <div class="services-grid service-style-2">
                                 <div class="thumbnail">
                                     <img src="../../media/icon/icon-46.png" alt="icon">

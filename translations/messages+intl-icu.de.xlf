@@ -689,6 +689,306 @@
                 <source>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</source>
                 <target>Um die aktuellen Fähigkeiten Ihrer Mitarbeiter zu stärken und den Weg für die Akquise neuer Mitarbeiter zu ebnen, hilft Lunari Ihnen dabei, die perfekten Inhalte zu entwickeln, um die Schlüsselkonzepte und Arbeitsmethoden Ihrer Organisation zu instruieren, zu schulen und zu erklären.</target>
             </trans-unit>
+
+
+
+            <trans-unit id="formules">
+                <source>3 Formules</source>
+                <target>3 Formeln</target>
+            </trans-unit>
+            <trans-unit id="formules2">
+                <source>3 Formules</source>
+                <target>Um Ihre Ziele zu erreichen</target>
+            </trans-unit>
+            <trans-unit id="immersion">
+                <source>Notre service d'abonnement sur-mesure de production de contenu vidéo..</source>
+                <target>Unser maßgeschneiderter Abonnementservice für die Produktion von Videoinhalten...</target>
+            </trans-unit>
+            <trans-unit id="unity">
+                <source>Un projet individuel ? Vous avez à votre disposition tous les services qu'il vous faut..</source>
+                <target>Ein individuelles Projekt? Ihnen stehen alle Dienste zur Verfügung, die Sie brauchen...</target>
+            </trans-unit>
+            <trans-unit id="lunix">
+                <source>Votre contenu, avec Lunix, vous filmez et nous réalisons le montage de vos vidéos..</source>
+                <target>Ihre Inhalte, mit Lunix filmen Sie und wir schneiden Ihre Videos...</target>
+            </trans-unit>
+            <trans-unit id="confiance">
+                <source>Ils nous font confiance</source>
+                <target>Sie vertrauen uns</target>
+            </trans-unit>
+            <trans-unit id="confiance2">
+                <source>Pour la réalisation de leur vidéo</source>
+                <target>Für die Erstellung ihres Videos</target>
+            </trans-unit>
+            <trans-unit id="avisClient">
+                <source>Avis clients</source>
+                <target>Kundenmeinungen</target>
+            </trans-unit>
+            <trans-unit id="avisClient2">
+                <source>Ce qu'on dit de nous</source>
+                <target>Was man über uns sagt</target>
+            </trans-unit>
+            <trans-unit id="avisClient3">
+                <source>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérite et généré des leads.</source>
+                <target>Holen auch Sie sich das maßgeschneiderte Videoangebot, das Ihr Unternehmen verdient, und generieren Sie Leads.</target>
+            </trans-unit>
+            <trans-unit id="champion">
+                <source>Des jeunes motivés et très sympathiques, la classe.</source>
+                <target>Motivierte und sehr sympathische Jugendliche, Klasse.</target>
+            </trans-unit>
+            <trans-unit id="Golay">
+                <source>Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.</source>
+                <target>Sehr gute Zusammenarbeit, aus der zwei qualitativ hochwertige Videos entstanden sind. Vielen Dank an das Lunari-Team.</target>
+            </trans-unit>
+            <trans-unit id="Suchet">
+                <source>J'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J'ai apprécié l'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo.</source>
+                <target>Ich habe mit Lunari an einem Videoprojekt über die Renovierung des Internationalen Arbeitsamtes durch die Steiner AG zusammengearbeitet. Ich schätzte die professionelle Begleitung durch diese Agentur sowie ihre Flexibilität während des gesamten Projekts. Lunari hat es auch verstanden, das Motion Design elegant in das Video zu integrieren.</target>
+            </trans-unit>
+            <trans-unit id="comment">
+                <source>Comment pouvons-nous vous aider ?</source>
+                <target>Wie können wir Ihnen helfen?</target>
+            </trans-unit>
+            <trans-unit id="projetvideo">
+                <source>Un projet vidéo ?</source>
+                <target>Ein Videoprojekt?</target>
+            </trans-unit>
+            <trans-unit id="demanderdevis">
+                <source>Demander un devis</source>
+                <target>Fordern Sie ein Angebot an</target>
+            </trans-unit>
+            <trans-unit id="newsletter">
+                <source>Notre newsletter</source>
+                <target>Unser Newsletter</target>
+            </trans-unit>
+            <trans-unit id="newsletter2">
+                <source>Pour ne louper aucune de nos dernières actualités..</source>
+                <target>Um keine unserer neuesten Nachrichten zu verpassen..</target>
+            </trans-unit>
+            <trans-unit id="souscrire">
+                <source>Souscrire</source>
+                <target>Abonnieren</target>
+            </trans-unit>
+            <trans-unit id="nosolutions">
+                <source>Nos solutions</source>
+                <target>Unsere Lösungen</target>
+            </trans-unit>
+            <trans-unit id="offreunity">
+                <source>Offre Unity</source>
+                <target>Offre Unity</target>
+            </trans-unit>
+            <trans-unit id="aboimmersion">
+                <source>Abonnement Immersion</source>
+                <target>Abonnement Immersion</target>
+            </trans-unit>
+            <trans-unit id="abolunix">
+                <source>Abonnement Lunix</source>
+                <target>Abonnement Lunix</target>
+            </trans-unit>
+            <trans-unit id="Support">
+                <source>Support</source>
+                <target>Unterstützung</target>
+            </trans-unit>
+            <trans-unit id="politiques">
+                <source>Politique de confidentialité</source>
+                <target>Datenschutzrichtlinie</target>
+            </trans-unit>
+            <trans-unit id="termes">
+                <source>Termes et conditions d'utilisations</source>
+                <target>Nutzungsbedingungen</target>
+            </trans-unit>
+            <trans-unit id="droits">
+                <source>© 2022. Tous droits réservés à</source>
+                <target>© 2022. Alle Rechte vorbehalten an</target>
+            </trans-unit>
+
+            <trans-unit id="deleque">
+                <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
+                <target>Delegieren Sie, sparen Sie Zeit und konzentrieren Sie sich auf das Wesentliche.</target>
+            </trans-unit>
+            <trans-unit id="deleque2">
+                <source>Qu'est-ce que Lunix ?</source>
+                <target>Was ist Lunix?</target>
+            </trans-unit>
+            <trans-unit id="deleque3">
+                <source>Lunix est une solution qui vous permet de réaliser vous-même vos vidéos et de nous en confier le montage. Elle met à votre disposition la possibilité de louer nos kits de matériel professionnels ainsi qu’une équipe de montage vidéo qui vous permet d’optimiser et accélérer votre processus de création de contenu.</source>
+                <target>Was ist Lunix Lunix ist eine Lösung, die es Ihnen ermöglicht, Ihre Videos selbst zu produzieren und die Bearbeitung an uns auszulagern. Sie bietet Ihnen die Möglichkeit, unsere professionellen Materialkits zu mieten, sowie ein Videobearbeitungsteam, mit dem Sie Ihren Prozess der Inhaltserstellung optimieren und beschleunigen können.</target>
+            </trans-unit>
+            <trans-unit id="deleque4">
+                <source>Pourquoi choisir Lunix ?</source>
+                <target>Warum Lunix ?</target>
+            </trans-unit>
+            <trans-unit id="deleque5">
+                <source>Recyclez !</source>
+                <target>Recyceln Sie!</target>
+            </trans-unit>
+            <trans-unit id="deleque6">
+                <source>Vous pouvez réutiliser tout le contenu que vous ne pensiez peut-être jamais utiliser en permettant à des monteurs dédiés d’en extraire le meilleur pour en réaliser une vidéo.</source>
+                <target>Sie können alle Inhalte, die Sie vielleicht nie zu verwenden gedachten, wiederverwenden, indem Sie es engagierten Cuttern ermöglichen, das Beste daraus zu extrahieren und ein Video daraus zu machen.</target>
+            </trans-unit>
+            <trans-unit id="deleque7">
+                <source>Gain de temps</source>
+                <target>Zeit sparen</target>
+            </trans-unit>
+            <trans-unit id="deleque8">
+                <source>Gagnez un temps précieux en déléguant le travail de post-production de vos vidéos</source>
+                <target>Sparen Sie wertvolle Zeit, indem Sie die Nachbearbeitung Ihrer Videos delegieren.</target>
+            </trans-unit>
+            <trans-unit id="deleque9">
+                <source>Formation complémentaire</source>
+                <target>Weiterführende Ausbildung</target>
+            </trans-unit>
+            <trans-unit id="deleque10">
+                <source>Vous bénéficiez de cours individuels et d’une librairie de vidéos de formation pour améliorer vos compétences en réalisation et tournage.</source>
+                <target>Sie erhalten Einzelunterricht und eine Bibliothek mit Schulungsvideos, um Ihre Fähigkeiten im Bereich Regie und Dreharbeiten zu verbessern.</target>
+            </trans-unit>
+            <trans-unit id="deleque11">
+                <source>Un pour tous, tous pour un</source>
+                <target>Einer für alle, alle für einen</target>
+            </trans-unit>
+            <trans-unit id="deleque12">
+                <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
+                <target>Nutzen Sie die kreativen Vorteile der Synergie, die sich aus der Zusammenarbeit mehrerer Berufsgruppen ergibt, die an einem Projekt beteiligt sind.</target>
+            </trans-unit>
+            <trans-unit id="deleque13">
+                <source>Besoin de renfort ?</source>
+                <target>Brauchen Sie Verstärkung?</target>
+            </trans-unit>
+            <trans-unit id="deleque14">
+                <source>Vous bénéficiez d’un accès permanent à notre réseau d’opérateurs caméra que vous pouvez solliciter lorsque vous avez besoin de renfort supplémentaire lors de vos tournages ou que vous ne pouvez être présent.</source>
+                <target>Sie haben ständigen Zugang zu unserem Netzwerk von Kameraleuten, die Sie anfordern können, wenn Sie bei Ihren Dreharbeiten zusätzliche Verstärkung benötigen oder nicht selbst anwesend sein können.</target>
+            </trans-unit>
+            <trans-unit id="deleque15">
+                <source>Faites du travail collaboratif un atout.</source>
+                <target>Machen Sie kollaboratives Arbeiten zu einer Stärke.</target>
+            </trans-unit>
+            <trans-unit id="deleque16">
+                <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
+                <target>Indem Sie die Verantwortlichen für die verschiedenen Produktionsaufgaben aufteilen und zuweisen, schalten Sie eine beschleunigte und optimale Zusammenarbeit frei, die auf Ihren Erwartungen basiert.</target>
+            </trans-unit>
+            <trans-unit id="deleque17">
+                <source>Donnez vies à vos idées.</source>
+                <target>Bringen Sie Ihre Ideen zum Leben.</target>
+            </trans-unit>
+            <trans-unit id="deleque18">
+                <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
+                <target>Vollenden Sie ohne Grenzen die vollständige Umsetzung aller Projekte, die Sie sich vorstellen. Verbessern Sie Ihre Produktionskette für Videoinhalte enorm.</target>
+            </trans-unit>
+
+
+            <trans-unit id="lunarimmersion">
+                <source>Une solution sur mesure. Un abonnement de contenu vidéo</source>
+                <target>Eine maßgeschneiderte Lösung. Ein Abonnement für Videoinhalte</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion2">
+                <source>Qu'est-ce qu'Immersion ?</source>
+                <target>Was ist Immersion?</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion3">
+                <source>Immersion est une solution qui vous aide à accomplir vos objectifs entrepreneuriaux. Elle met à votre disposition la création de contenu vidéo qui vous permet d’informer, d’attirer de nouveaux clients, de développer votre réputation, d’augmenter vos ventes et de faire évoluer votre entreprise.</source>
+                <target>Immersion ist eine Lösung, die Ihnen hilft, Ihre unternehmerischen Ziele zu erreichen. Sie stellt Ihnen die Erstellung von Videoinhalten zur Verfügung, mit denen Sie informieren, neue Kunden gewinnen, Ihren Ruf verbessern, Ihren Umsatz steigern und Ihr Unternehmen weiterentwickeln können.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion4">
+                <source>Pourquoi choisir Immersion ?</source>
+                <target>Warum Immersion wählen?</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion5">
+                <source>Provoquez un impact durable.</source>
+                <target>Verursachen Sie eine nachhaltige Wirkung</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion6">
+                <source>Offrez plus de valeur et de résultats sur le long terme avec un partage régulier de nouvelles vidéos uniques pour votre communication globale.</source>
+                <target>Bieten Sie mehr Wert und langfristige Ergebnisse durch das regelmäßige Teilen neuer, einzigartiger Videos für Ihre globale Kommunikation.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion7">
+                <source>Adaptez-vous à toutes les situations</source>
+                <target>Passen Sie sich an jede Situation an</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion8">
+                <source>Adaptez-vous simplement comme vous le souhaitez en fonction de l’évolution des priorités commerciales, des opportunités client, et ce, au fur et à mesure qu’elles apparaissent.</source>
+                <target>Passen Sie sich einfach wie gewünscht an veränderte Geschäftsprioritäten und Kundenchancen an.
+                </target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion9">
+                <source>Créez de l’information continuellement</source>
+                <target>Schaffen Sie kontinuierlich Informationen.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion10">
+                <source>Obtenez de meilleurs résultats de notoriété, d’engagement auprès de votre audience et ainsi de ventes, grâce à une fréquence accrue de diffusion du contenu vidéo créé.</source>
+                <target>Erzielen Sie bessere Ergebnisse bei der Bekanntheit, der Bindung an Ihr Publikum und damit auch bei den Verkaufszahlen, indem Sie den erstellten Videocontent häufiger veröffentlichen.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion11">
+                <source>Un pour tous, tous pour un</source>
+                <target>Einer für alle, alle für einen</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion12">
+                <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
+                <target>Nutzen Sie die kreativen Vorteile der Synergie, die sich aus der Zusammenarbeit mehrerer Berufsgruppen ergibt, die an einem Projekt beteiligt sind.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion14">
+                <source>Restez prêts pour l'avenir.</source>
+                <target>Bleiben Sie auf die Zukunft vorbereitet.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion13">
+                <source>Relevez les opportunités de demain en intégrant dans votre entreprise une solution pour votre communication que vous pouvez modifier et adapter mois après mois.</source>
+                <target>Nehmen Sie die Chancen von morgen wahr, indem Sie eine Lösung für Ihre Kommunikation in Ihr Unternehmen integrieren, die Sie Monat für Monat ändern und anpassen können.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion15">
+                <source>Faites du travail collaboratif un atout.</source>
+                <target>Machen Sie kollaboratives Arbeiten zu einer Stärke.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion16">
+                <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
+                <target>Indem Sie die Verantwortlichen für die verschiedenen Produktionsaufgaben aufteilen und zuweisen, schalten Sie eine beschleunigte und optimale Zusammenarbeit frei, die auf Ihren Erwartungen basiert.
+                </target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion17">
+                <source>Donnez vies à vos idées.</source>
+                <target>Bringen Sie Ihre Ideen zum Leben.</target>
+            </trans-unit>
+            <trans-unit id="lunarimmersion18">
+                <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
+                <target>Vollenden Sie ohne Grenzen die vollständige Umsetzung aller Projekte, die Sie sich vorstellen. Verbessern Sie Ihre Produktionskette für Videoinhalte enorm</target>
+            </trans-unit>
+            <trans-unit id="socialmenu">
+                <source>Nos réseaux sociaux</source>
+                <target>Unsere sozialen Netzwerke</target>
+            </trans-unit>
+            <trans-unit id="contactmenu">
+                <source>Nous contacter</source>
+                <target>Kontaktieren Sie uns</target>
+            </trans-unit>
+            <trans-unit id="question">
+                <source>Une question ?</source>
+                <target>Eine Frage?</target>
+            </trans-unit>
+            <trans-unit id="demande">
+                <source>Une demande ?</source>
+                <target>Eine Anfrage?</target>
+            </trans-unit>
+            <trans-unit id="telephone">
+                <source>Téléphone</source>
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="notragence">
+                <source>Notre agence est ouverte du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h30.</source>
+                <target>Unsere Zweigstelle ist montags bis freitags von 9.00 bis 12.00 Uhr und von 14.00 bis 17.30 Uhr geöffnet.</target>
+            </trans-unit>
+            <trans-unit id="notresupport">
+                <source>Notre support vous fournira une réponse sous 48h.</source>
+                <target>Unser Support wird Ihnen innerhalb von 48 Stunden eine Antwort geben.</target>
+            </trans-unit>
+            <trans-unit id="real">
+                <source>Nos réalisations</source>
+                <target>Unsere Errungenschaften</target>
+            </trans-unit>
+            <trans-unit id="real2">
+                <source>Un aperçu de nos réalisations pour le compte de nos clients, retrouver des vidéos interviews, des vidéos d'entreprise ainsi que des spots publicitaires.</source>
+                <target>Ein Überblick über unsere Arbeit für unsere Kunden. Hier finden Sie Interviewvideos, Unternehmensvideos und Werbespots.</target>
+            </trans-unit>
+            <trans-unit id="test">
+                <source>test</source>
+                <target>test</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

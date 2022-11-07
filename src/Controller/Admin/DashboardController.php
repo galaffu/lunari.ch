@@ -4,6 +4,7 @@ namespace App\Controller\Admin;
 
 use App\Entity\User;
 use App\Entity\Client;
+use App\Entity\Freelance;
 use App\Entity\Projet;
 use App\Entity\Mission;
 use App\Repository\UserRepository;
@@ -61,17 +62,22 @@ class DashboardController extends AbstractDashboardController
 
     public function configureMenuItems(): iterable
     {
-        yield MenuItem::linkToUrl('Home', 'fa fa-home', "http://localhost:8000/");
+        yield MenuItem::linkToUrl('Home', 'fa fa-home', "https://lunari.ch/");
 
         yield MenuItem::section('Utilisateurs')
         ->setPermission('ROLE_ADMIN');
         yield MenuItem::linkToCrud('Utilisateurs', 'fas fa-user', User::class)
         ->setPermission('ROLE_ADMIN');
 
+        yield MenuItem::section('Freelance')
+        ->setPermission('ROLE_ADMIN');
+        yield MenuItem::linkToCrud('Freelance', 'fas fa-user', Freelance::class)
+        ->setPermission('ROLE_ADMIN');
+
         yield MenuItem::section('Client');
         yield MenuItem::subMenu('Client', 'fa-regular fa-money-check-dollar')->setSubItems([
-            MenuItem::linkToCrud("Liste des clients", null, Projet::class),
-            MenuItem::linkToCrud("Ajouter un client", null, Projet::class)->setAction('new')
+            MenuItem::linkToCrud("Liste des clients", null, Client::class),
+            MenuItem::linkToCrud("Ajouter un client", null, Client::class)->setAction('new')
         ]);
 
         yield MenuItem::section('Portfolio');

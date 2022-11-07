@@ -69,12 +69,13 @@ STYLESHEET INDEXING
     --color-white: #ffffff;
     --color-black: #000000;
     --color-light: #ECF2F6;
-    --color-dark: #27272E;
+    --color-dark: #27274D;
+    --color-bluedark: #27274D;
     --color-text-dark: #292930;
     --color-accent1: #FFDC60;
     --color-accent2: #FAB8C4;
     --color-blue-shade: #6865FF;
-    --color-link: #2522BA;
+    --color-link: #21d4fd;
     --color-mabel: #DBF8FF;
     --color-fog: #DBDEFF;
     --color-pink-shade: #FFD3DB;
@@ -537,17 +538,11 @@ input {
 }
 
 .input-group:before {
-    content: url("../../public/media/icon/message.png");
-    position: absolute;
-    left: 30px;
-    top: 24px;
-    z-index: 1;
+
 }
 
 @media only screen and (max-width: 479px) {
     .input-group:before {
-        left: 15px;
-        top: 18px;
     }
 }
 
@@ -616,6 +611,14 @@ input {
 -------------------------*/
 .bg-color-dark {
     background-color: var(--color-dark);
+}
+
+.bg-color-gradient {
+    background-color: var(--gradient-dark);
+}
+
+.bg-color-bluedark {
+    background-color: var(--gradient-dark);
 }
 
 .bg-color-light {
@@ -2747,7 +2750,7 @@ Pagination
     padding: 255px 0 0;
     position: relative;
     z-index: 2;
-    min-height: 800px;
+    max-height: 50vh;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -3104,7 +3107,7 @@ Pagination
 .banner.banner-style-2 {
     margin: 0 95px;
     padding: 250px 0 300px 200px;
-    background-color: var(--color-link);
+    background-color: var(--color-primary);
     border-radius: 60px;
     overflow: hidden;
 }
@@ -3112,7 +3115,7 @@ Pagination
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .banner.banner-style-2 {
         padding: 150px 0 200px 100px;
-        min-height: 600px;
+        min-height: 1000px;
         margin: 0 30px;
     }
 }
@@ -3121,7 +3124,7 @@ Pagination
     .banner.banner-style-2 {
         margin: 0 30px;
         padding: 150px 60px;
-        min-height: 600px;
+        min-height: 1000px;
     }
 }
 

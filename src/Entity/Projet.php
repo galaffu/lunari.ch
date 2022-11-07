@@ -25,6 +25,9 @@ class Projet
     #[ORM\Column(length: 255)]
     private ?string $video = null;
 
+    #[ORM\Column(length: 255)]
+    private ?string $Client = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -50,6 +53,18 @@ class Projet
     public function setVideo(string $video): self
     {
         $this->video = $video;
+
+        return $this;
+    }
+
+    public function getClient(): ?string
+    {
+        return $this->Client;
+    }
+
+    public function setClient(string $Client): self
+    {
+        $this->Client = $Client;
 
         return $this;
     }

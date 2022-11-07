@@ -103,7 +103,7 @@
                         </h4>
                         <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <h1 class="title">{{ 'Votre abonnement de contenu vidéo' | trans}}</h1>
-                            <a href="portfolio.html" class="axil-btn btn-fill-white btn-large">{{ 'Voir nos offres' | trans}}</a>
+                            {# <a href="portfolio.html" class="axil-btn btn-fill-white btn-large">{{ 'Voir nos offres' | trans}}</a> #}
                         </div>
                     </div>
                 </div>
@@ -118,6 +118,9 @@
                 <li class="shape shape-7" data-sal="slide-down" data-sal-duration="500" data-sal-delay="600"><img src="../../media/others/bubble-26.png" alt="Shape"></li>
             </ul>
         </section>
+
+
+        
         <!--=====================================-->
         <!--=        Service Area Start         =-->
         <!--=====================================-->
@@ -135,9 +138,9 @@
                                 <img src="../../media/icon/reactivite.svg" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-design.html">{{ 'Réactivité' | trans}}</a></h5>
+                                <h5 class="title"> <a href="{{path('service')}}">{{ 'Réactivité' | trans}}</a></h5>
                                 <p>{{ 'Les médias et les tendances de mode sont en constante évolution, l\'abonnement vous garantit adaptabilité et réactivité.' | trans}}.</p>
-                                <a href="service-design.html" class="more-btn">{{ 'En savoir plus' | trans}}</a>
+                                <a href="{{path('service')}}" class="more-btn">{{ 'En savoir plus' | trans}}</a>
                             </div>
                         </div>
                     </div>
@@ -148,9 +151,9 @@
                                 <img src="../../media/icon/contenu.svg" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-development.html">{{ 'Contenu' | trans}}</a></h5>
+                                <h5 class="title"> <a href="{{path('service')}}">{{ 'Contenu' | trans}}</a></h5>
                                 <p>{{ 'Plus de contenu signifie plus d\'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.' | trans}}</p>
-                                <a href="service-development.html" class="more-btn">{{ 'En savoir plus' | trans}}</a>
+                                <a href="{{path('service')}}" class="more-btn">{{ 'En savoir plus' | trans}}</a>
                             </div>
                         </div>
                     </div>
@@ -161,9 +164,9 @@
                                 <img src="../../media/icon/equilibre.svg" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-content-strategy.html">{{ 'Equilibre' | trans}}</a></h5>
+                                <h5 class="title"> <a href="{{path('service')}}">{{ 'Equilibre' | trans}}</a></h5>
                                 <p>{{ 'Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.' | trans}}</p>
-                                <a href="service-content-strategy.html" class="more-btn">{{ 'En savoir plus' | trans}}</a>
+                                <a href="{{path('service')}}" class="more-btn">{{ 'En savoir plus' | trans}}</a>
                             </div>
                         </div>
                     </div>
@@ -175,21 +178,72 @@
                 <li class="shape shape-3"><img src="../../media/others/bubble-1.png" alt="Line"></li>
             </ul>
         </section>
+
+        <section class="section section-padding bg-color-dark">
+            <div class="container">
+                <div class="section-heading heading-light">
+                    <span class="subtitle">{{ '3 Formules' | trans}}</span>
+                    <h2 class="title">{{'Pour atteindre vos objectifs' | trans}}</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="counterup-progress active">
+                            <div class="icon">
+                                <img src="../../media/immersion.svg" width="50%" alt="Apple">
+                            </div>
+                            <div class="content">
+                                <h5 class="title"> <a href="{{path('app_immersion')}}">{{ 'Immersion' | trans}}</a></h5>
+                                <p class="text-light">{{ 'Notre service d\'abonnement sur-mesure de production de contenu vidéo..' | trans}}.</p>
+                                <a href="{{path('app_immersion')}}" class="more-btn text-primary">{{ 'En savoir plus' | trans}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="counterup-progress bg-color-dark">
+                            <div class="icon">
+                                <img src="../../media/unity.png" width="50%" alt="Apple">
+                            </div>
+                           <div class="content">
+                                <h5 class="title"> <a href="{{path('service')}}">{{ 'Unity' | trans}}</a></h5>
+                                <p class="text-light">{{ 'Un projet individuel ? Vous avez à votre disposition tous les services qu\'il vous faut..' | trans}}.</p>
+                                <a href="{{path('service')}}" class="more-btn text-primary">{{ 'En savoir plus' | trans}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="counterup-progress active">
+                            <div class="icon">
+                                <img src="../../media/lunix.png" width="50%" alt="Apple">
+                            </div>
+                            <div class="content">
+                                <h5 class="title"> <a href="{{path('lunix')}}">{{ 'Lunix' | trans}}</a></h5>
+                                <p class="text-light">{{ 'Votre contenu, avec Lunix, vous filmez et nous réalisons le montage de vos vidéos..' | trans}}.</p>
+                                <a href="{{path('lunix')}}" class="more-btn text-primary">{{ 'En savoir plus' | trans}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-10">
+                <!-- <li class="shape shape-1"><img src="../../media/others/line-9.png" alt="Circle"></li> -->
+                <li class="shape shape-2"><img src="../../media/others/bubble-42.png" alt="Circle"></li>
+                <li class="shape shape-3"><img src="../../media/others/bubble-43.png" alt="Circle"></li>
+            </ul>
+        </section>
         <!--=====================================-->
         <!--=        Project Area Start         =-->
         <!--=====================================-->
+                    {#}test{#}
+
         <section class="section section-padding-2 bg-color-light">
             <div class="container">
                 <div class="section-heading heading-left">
                     <span class="subtitle">Portfolio</span>
                     <h2 class="title">{{ 'Découvrir nos dernières réalisations.' | trans}}</h2>
                 </div>
-                <div class="axil-isotope-wrapper">
-                    {# <div class="isotope-button isotope-project-btn">
-                        <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-                        <button data-filter=".branding"><span class="filter-text">Branding</span></button>
-                        <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
-                    </div> #}
+                <div class="container-fluid">
+                  <div class="axil-isotope-wrapper">
+
                     <div class="row row-35 isotope-list">
                         
                      {% for projet in projets %}     
@@ -197,15 +251,16 @@
                         <div class="col-md-6 project branding">
                             <div class="project-grid">
                                 <div class="video-background">
-                                    <div class="video-foreground">
-                                    <iframe width="100%" height="345px" src="{{projet.video}}" frameborder="1" allowfullscreen>
+                                    <div class="post-thumbnail">
+                                    <iframe width="100%" height="375px" src="{{projet.video}}" frameborder="1" allowfullscreen>
                                         {# <img src="{{ asset("./uploads/projets/" ~ projet.picture)|imagine_filter('thumb') }}" alt="project"> #}
                                     </iframe>
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">{{projet.titre}}</a></h4>
-                                    <span class="subtitle">Full Branding, Website, App</span>
+                                    <h5 class="title">{{projet.client}}</h5>
+                                    <h4 class="title">{{projet.titre}}</h4>
+                                    {# <span class="subtitle">Full Branding, Website, App</span> #}
                                 </div>
                             </div>
                         </div>
@@ -214,6 +269,8 @@
                        
                     </div>
                 </div>
+                </div>
+              
             </div>
             <ul class="shape-group-7 list-unstyled">
                 <li class="shape shape-1"><img src="../../media/others/circle-2.png" alt="circle"></li>
@@ -342,123 +399,11 @@
             </ul>
         </section> #}
 
-
-
-        <section class="section section-padding bg-color-dark">
-            <div class="container">
-                <div class="section-heading heading-light">
-                    <span class="subtitle">3 formules</span>
-                    <h2 class="title">Pour atteindre vos objectifs</h2>
-                    <p>In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="counterup-progress">
-                            <div class="icon">
-                                <img src="../../media/icon/icon-7.png" alt="Apple">
-                            </div>
-                            <div class="count-number h2">
-                                <span class="number count" data-count="15">Immersion</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="counterup-progress">
-                            <div class="icon">
-                                <img src="../../media/icon/icon-8.png" alt="Apple">
-                            </div>
-                            <div class="count-number h2">
-                                <span class="number count" data-count="360">Unity</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="counterup-progress">
-                            <div class="icon">
-                                <img src="../../media/icon/icon-9.png" alt="Apple">
-                            </div>
-                            <div class="count-number h2">
-                                <span class="number count" data-count="600">Lunix</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="list-unstyled shape-group-10">
-                <!-- <li class="shape shape-1"><img src="../../media/others/line-9.png" alt="Circle"></li> -->
-                <li class="shape shape-2"><img src="../../media/others/bubble-42.png" alt="Circle"></li>
-                <li class="shape shape-3"><img src="../../media/others/bubble-43.png" alt="Circle"></li>
-            </ul>
-        </section>
-        <!--=====================================-->
-        <!--=        Testimonial Area Start      =-->
-        <!--=====================================-->
-        <section class="section section-padding">
-            <div class="container">
-                <div class="section-heading heading-left">
-                    <span class="subtitle">Avis clients</span>
-                    <h2 class="title">Ce qu'on dit de nous</h2>
-                    <p>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérite et généré des leads.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                        <div class="testimonial-grid active">
-                            {# <span class="social-media"><img src="../../media/icon/yelp-2.png" alt="Yelp"></span> #}
-                            <p>“ Des jeunes motivés et très sympathiques, la classe. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="../../media/testimonial/testimonial-1.png" alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Champion Arnaud</span>
-                                    {# <span class="designation">Executive Chairman</span> #}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <div class="testimonial-grid">
-                            {# <span class="social-media"><img src="../../media/icon/google-2.png" alt="google"></span> #}
-                            <p>“ Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="../../media/testimonial/testimonial-2.png" alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Golay Christopher</span>
-                                    {# <span class="designation">Executive Chairman</span> #}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
-                        <div class="testimonial-grid">
-                            {# <span class="social-media"><img src="../../media/icon/fb-2.png" alt="Facebook"></span> #}
-                            <p>“ J'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J'ai apprécié l'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo. ”</p>
-                            <div class="author-info">
-                                <div class="thumb">
-                                    <img src="../../media/testimonial/testimonial-3.png" alt="Google Review">
-                                </div>
-                                <div class="content">
-                                    <span class="name">Suchet David</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="shape-group-4 list-unstyled">
-                <li class="shape-1"><img src="../../media/others/bubble-1.png" alt="Bubble"></li>
-            </ul>
-        </section>
-        <!--=====================================-->
-        <!--=        Brand Area Start       	=-->
-        <!--=====================================-->
-        <section class="section section-padding bg-color-dark">
+ <section class="section section-padding bg-color-dark">
             <div class="container">
                 <div class="section-heading heading-light-left">
-                    <span class="subtitle">Ils nous font confiance</span>
-                    <h2 class="title">Pour construire leur présence sur le web</h2>
+                    <span class="subtitle">{{'Ils nous font confiance' | trans}}</span>
+                    <h2 class="title">{{'Pour la réalisation de leur vidéo' | trans}}</h2>
                 </div>
                 <div class="row">
                 {% for client in clients %}
@@ -475,62 +420,74 @@
                 <li class="shape shape-1"><img src="../../media/others/line-9.png" alt="Circle"></li>
             </ul>
         </section>
+
+        
         <!--=====================================-->
-        <!--=        Blog Area Start       	    =-->
+        <!--=        Testimonial Area Start      =-->
         <!--=====================================-->
-        <section class="section section-padding-equal">
+        <section class="section section-padding">
             <div class="container">
-                <div class="section-heading">
-                    <span class="subtitle">What's Going On</span>
-                    <h2 class="title">Latest stories</h2>
-                    <p>News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
+                <div class="section-heading heading-left">
+                    <span class="subtitle">{{'Avis clients' | trans}}</span>
+                    <h2 class="title">{{'Ce qu\'on dit de nous' | trans}}</h2>
+                    <p>{{'Vous aussi, obtenez l\'offre de vidéo sur mesure que votre entreprise mérite et généré des leads.' | trans}}</p>
                 </div>
-                <div class="row g-0">
-                    <div class="col-xl-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-                        <div class="blog-list active">
-                            <div class="post-thumbnail">
-                                <a href="single-blog-2.html"><img src="../../media/blog/blog-1.png" alt="Blog Post"></a>
-                            </div>
-                            <div class="post-content">
-                                <h5 class="title"><a href="single-blog-2.html">How To Use a Remarketing Strategy To Get More</a></h5>
-                                <p>Demand generation is a constant struggle for any business. Each marketing strategy you employ has...</p>
-                                <a href="single-blog-2.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
+                <div class="row">
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                        <div class="testimonial-grid active">
+                            {# <span class="social-media"><img src="../../media/icon/yelp-2.png" alt="Yelp"></span> #}
+                            <p>“ {{'Des jeunes motivés et très sympathiques, la classe.' | trans}} ”</p>
+                            <div class="author-info">
+                                {# <div class="thumb">
+                                    <img src="../../media/testimonial/testimonial-1.png" alt="Google Review">
+                                </div> #}
+                                <div class="content">
+                                    <span class="name">Champion Arnaud</span>
+                                    {# <span class="designation">Executive Chairman</span> #}
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
-                        <div class="blog-list border-start">
-                            <div class="post-thumbnail">
-                                <a href="single-blog-3.html"><img src="../../media/blog/blog-2.png" alt="Blog Post"></a>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        <div class="testimonial-grid">
+                            {# <span class="social-media"><img src="../../media/icon/google-2.png" alt="google"></span> #}
+                            <p>“ {{'Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.' | trans}} ”</p>
+                            <div class="author-info">
+                                {# <div class="thumb">
+                                    <img src="../../media/testimonial/testimonial-2.png" alt="Google Review">
+                                </div> #}
+                                <div class="content">
+                                    <span class="name">Golay Christopher</span>
+                                    {# <span class="designation">Executive Chairman</span> #}
+                                </div>
                             </div>
-                            <div class="post-content">
-                                <h5 class="title"><a href="single-blog-3.html">SEO Statistics You Should Know in 2021</a></h5>
-                                <p>Organic search has the potential to capture more than 40 percent of your gross revenue...</p>
-                                <a href="single-blog-3.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                        <div class="testimonial-grid">
+                            {# <span class="social-media"><img src="../../media/icon/fb-2.png" alt="Facebook"></span> #}
+                            <p>“ {{'J\'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J\'ai apprécié l\'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo.' | trans}} ”</p>
+                            <div class="author-info">
+                                {# <div class="thumb">
+                                    <img src="../../media/testimonial/testimonial-3.png" alt="Google Review">
+                                </div> #}
+                                <div class="content">
+                                    <span class="name">Suchet David</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul class="shape-group-1 list-unstyled">
-                <li class="shape shape-1"><img src="../../media/others/bubble-1.png" alt="bubble"></li>
-                <li class="shape shape-2"><img src="../../media/others/line-1.png" alt="bubble"></li>
-                <li class="shape shape-3"><img src="../../media/others/line-2.png" alt="bubble"></li>
-                <li class="shape shape-4"><img src="../../media/others/bubble-2.png" alt="bubble"></li>
+            <ul class="shape-group-4 list-unstyled">
+                <li class="shape-1"><img src="../../media/others/bubble-1.png" alt="Bubble"></li>
             </ul>
         </section>
-        <!--=====================================-->
-        <!--=     Call To Action Area Start     =-->
-        <!--=====================================-->
+       
        {% include "partials/contact.html.twig" %}
-        <!--=====================================-->
-        <!--=        Footer Area Start       	=-->
-        <!--=====================================-->
+       
         {% include "partials/footer.html.twig" %}
 
-        <!--=====================================-->
-        <!--=       Offcanvas Menu Area       	=-->
-        <!--=====================================-->
         {% include "partials/menu.html.twig" %}
 
     </div>
