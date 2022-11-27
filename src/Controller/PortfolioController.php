@@ -32,13 +32,13 @@ class PortfolioController extends AbstractController
             Request $request
         ): Response {
 
-            $data = $projetRepository->findAll();
+            $data = $projetRepository->all();
             $unique = $videoMiseEnAvantRepository->findOneBy(array(),array('id'=>'DESC'),1,0);
 
         $projets = $paginator->paginate(
             $data,
            $request->query->getInt('page', 1), 
-            6
+            8
         );
         return $this->render('portfolio/index.html.twig', [
             'projets' => $projets,

@@ -4,9 +4,10 @@ namespace App\Controller\Admin;
 
 use App\Entity\User;
 use App\Entity\Client;
-use App\Entity\Freelance;
 use App\Entity\Projet;
+use App\Entity\Contact;
 use App\Entity\Mission;
+use App\Entity\Freelance;
 use App\Repository\UserRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -71,11 +72,11 @@ class DashboardController extends AbstractDashboardController
 
         yield MenuItem::section('Freelance')
         ->setPermission('ROLE_ADMIN');
-        yield MenuItem::linkToCrud('Freelance', 'fas fa-user', Freelance::class)
+        yield MenuItem::linkToCrud('Freelance', 'fas fa-building', Freelance::class)
         ->setPermission('ROLE_ADMIN');
 
         yield MenuItem::section('Client');
-        yield MenuItem::subMenu('Client', 'fa-regular fa-money-check-dollar')->setSubItems([
+        yield MenuItem::subMenu('Client', 'fas fa-users')->setSubItems([
             MenuItem::linkToCrud("Liste des clients", null, Client::class),
             MenuItem::linkToCrud("Ajouter un client", null, Client::class)->setAction('new')
         ]);
@@ -87,9 +88,15 @@ class DashboardController extends AbstractDashboardController
         ]);
 
         yield MenuItem::section('Mission');
-        yield MenuItem::subMenu('Mission', 'fa-regular fa-note-sticky',)->setSubItems([
+        yield MenuItem::subMenu('Mission', 'far fa-sticky-note',)->setSubItems([
             MenuItem::linkToCrud("Liste des missions", null, Mission::class),
             MenuItem::linkToCrud("Ajouter un article", null, Mission::class)->setAction('new')
+        ]);
+
+        yield MenuItem::section('Contact');
+        yield MenuItem::subMenu('Contact', 'fas fa-inbox',)->setSubItems([
+            MenuItem::linkToCrud("Liste des messages", null, Contact::class),
+            // MenuItem::linkToCrud("Ajouter un article", null, Contact::class)->setAction('new')
         ]);
 
         // yield MenuItem::linkToCrud('Missions', 'fas fa-book', Mission::class)

@@ -32,6 +32,17 @@ class ProjetRepository extends ServiceEntityRepository
                    ;
     }
 
+    public function all()
+    {
+       
+       return $this->createQueryBuilder('b')
+                   ->orderBy('b.id', 'DESC')
+                   ->setMaxResults(100)
+                   ->getQuery()
+                   ->getResult()
+                   ;
+    }
+
     public function save(Projet $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);

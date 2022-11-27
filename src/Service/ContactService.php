@@ -13,26 +13,24 @@ class ContactService
 
 {
     private $manager;
-    private $flash;
 
-    public function __construct(EntityManagerInterface $manager, FlashBagInterface $flash)
+    public function __construct(EntityManagerInterface $manager)
     
     {
         $this->manager = $manager;
-        $this->flash = $flash;
     }
 
 
-    public function persistContact(COntact $contact):void
+    public function persistContact(Contact $contact):void
 
 
     {
-        // $contact->setIsSend(false)
-        //         ->setCreatedAt(new DateTimeImmutable('now'));
+        $contact->setIsSend(false)
+                ->setDate(new DateTimeImmutable('now'))
+                ->setCreatedAt(new DateTimeImmutable('now'));
 
         $this->manager->persist($contact);
         $this->manager->flush();
-        $this->flash->add('success', 'Votre message est bien envoyé, nous vous répondrons dans les meilleurs délais, merci.');
     }
 
     public function isSend(Contact $contact): void
