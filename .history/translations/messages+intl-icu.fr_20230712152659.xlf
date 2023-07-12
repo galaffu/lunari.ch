@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xliff version="1.2"
     xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="note">
                 <source>note</source>
@@ -9,243 +9,243 @@
             </trans-unit>
             <trans-unit id="tip">
                 <source>tip</source>
-                <target>TIP</target>
+                <target>ASTUCE</target>
             </trans-unit>
             <trans-unit id="not_available">
                 <source>not_available</source>
-                <target>Not available</target>
+                <target>Indisponible</target>
             </trans-unit>
             <trans-unit id="mit_license">
                 <source>mit_license</source>
-                <target>MIT License</target>
+                <target>Licence MIT</target>
             </trans-unit>
 
             <trans-unit id="http_error.name">
                 <source>http_error.name</source>
-                <target>Error {status_code, number}</target>
+                <target>Erreur {status_code, number}</target>
             </trans-unit>
             <trans-unit id="http_error.description">
                 <source>http_error.description</source>
-                <target>There was an unknown error (HTTP {status_code, number}) that prevented to complete your request.</target>
+                <target>Il y a eu une erreur inconnue (HTTP {status_code, number}) qui a empêché l'aboutissement de votre requête.</target>
             </trans-unit>
             <trans-unit id="http_error.suggestion">
                 <source>http_error.suggestion</source>
-                <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
+                <target><![CDATA[Essayez de recharger cette page dans quelques minutes ou <a href="{url}">retournez sur la page principale</a>.]]></target>
             </trans-unit>
             <trans-unit id="http_error_403.description">
                 <source>http_error_403.description</source>
-                <target>You don't have permission to access to this resource.</target>
+                <target>Vous n'avez pas les droits pour accéder à cette ressource.</target>
             </trans-unit>
             <trans-unit id="http_error_403.suggestion">
                 <source>http_error_403.suggestion</source>
-                <target>Ask your manager or system administrator to grant you access to this resource.</target>
+                <target>Demandez à votre manager ou à votre administrateur système de vous donner les droits pour accéder à cette ressource.</target>
             </trans-unit>
             <trans-unit id="http_error_404.description">
                 <source>http_error_404.description</source>
-                <target>We couldn't find the page you requested.</target>
+                <target>Nous n'avons pas pu trouver la page demandée.</target>
             </trans-unit>
             <trans-unit id="http_error_404.suggestion">
                 <source>http_error_404.suggestion</source>
-                <target><![CDATA[Check out any misspelling in the URL or <a href="{url}">go back to the homepage</a>.]]></target>
+                <target><![CDATA[Vérifiez si l'URL ne comporte pas d'erreurs ou <a href="{url}">retournez sur la page principale</a>.]]></target>
             </trans-unit>
             <trans-unit id="http_error_500.description">
                 <source>http_error_500.description</source>
-                <target>There was an internal server error.</target>
+                <target>Il y a eu une erreur interne du serveur.</target>
             </trans-unit>
             <trans-unit id="http_error_500.suggestion">
                 <source>http_error_500.suggestion</source>
-                <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
+                <target><![CDATA[Essayez de recharger cette page dans quelques minutes ou <a href="{url}">retournez sur la page principale</a>.]]></target>
             </trans-unit>
 
             <trans-unit id="title.homepage">
                 <source>title.homepage</source>
-                <target><![CDATA[Welcome to the <strong>Symfony Demo</strong> application]]></target>
+                <target><![CDATA[Bienvenue sur l'application <strong>Symfony Demo</strong>]]></target>
             </trans-unit>
             <trans-unit id="title.source_code">
                 <source>title.source_code</source>
-                <target>Source code used to render this page</target>
+                <target>Le code source utilisé pour afficher cette page</target>
             </trans-unit>
             <trans-unit id="title.controller_code">
                 <source>title.controller_code</source>
-                <target>Controller code</target>
+                <target>Code du contrôleur</target>
             </trans-unit>
             <trans-unit id="title.twig_template_code">
                 <source>title.twig_template_code</source>
-                <target>Twig template code</target>
+                <target>Code du template Twig</target>
             </trans-unit>
             <trans-unit id="title.login">
                 <source>title.login</source>
-                <target>Secure Sign in</target>
+                <target>Connexion sécurisée</target>
             </trans-unit>
             <trans-unit id="title.post_list">
                 <source>title.post_list</source>
-                <target>Post List</target>
+                <target>Liste des articles</target>
             </trans-unit>
             <trans-unit id="title.edit_post">
                 <source>title.edit_post</source>
-                <target>Edit post #{id, number}</target>
+                <target>Modifier l'article #{id, number}</target>
             </trans-unit>
             <trans-unit id="title.add_comment">
                 <source>title.add_comment</source>
-                <target>Add a comment</target>
+                <target>Laisser un commentaire</target>
             </trans-unit>
             <trans-unit id="title.comment_error">
                 <source>title.comment_error</source>
-                <target>There was an error publishing your comment</target>
+                <target>Il y a eu une erreur lors de la publication de votre commentaire.</target>
             </trans-unit>
             <trans-unit id="title.edit_user">
                 <source>title.edit_user</source>
-                <target>Edit user</target>
+                <target>Modifier l'utilisateur</target>
             </trans-unit>
             <trans-unit id="title.change_password">
                 <source>title.change_password</source>
-                <target>Change password</target>
+                <target>Modifier le mot de passe</target>
             </trans-unit>
 
             <trans-unit id="action.show">
                 <source>action.show</source>
-                <target>Show</target>
+                <target>Voir</target>
             </trans-unit>
             <trans-unit id="action.show_post">
                 <source>action.show_post</source>
-                <target>Show post</target>
+                <target>Voir l'article</target>
             </trans-unit>
             <trans-unit id="action.show_code">
                 <source>action.show_code</source>
-                <target>Show code</target>
+                <target>Voir le code</target>
             </trans-unit>
             <trans-unit id="action.edit">
                 <source>action.edit</source>
-                <target>Edit</target>
+                <target>Editer</target>
             </trans-unit>
             <trans-unit id="action.edit_post">
                 <source>action.edit_post</source>
-                <target>Edit post</target>
+                <target>Modifier l'article</target>
             </trans-unit>
             <trans-unit id="action.save">
                 <source>action.save</source>
-                <target>Save changes</target>
+                <target>Enregistrer</target>
             </trans-unit>
             <trans-unit id="action.delete_post">
                 <source>action.delete_post</source>
-                <target>Delete post</target>
+                <target>Supprimer l'article</target>
             </trans-unit>
             <trans-unit id="delete_post_modal.title">
                 <source>delete_post_modal.title</source>
-                <target>Are you sure you want to delete this post?</target>
+                <target>Êtes-vous sûr de vouloir supprimer ce post ?</target>
             </trans-unit>
             <trans-unit id="delete_post_modal.body">
                 <source>delete_post_modal.body</source>
-                <target>This action cannot be undone.</target>
+                <target>Cette action ne peut pas être annulée.</target>
             </trans-unit>
             <trans-unit id="label.delete_post">
                 <source>label.delete_post</source>
-                <target>Delete post</target>
+                <target>Supprimer l'article</target>
             </trans-unit>
             <trans-unit id="label.cancel">
                 <source>label.cancel</source>
-                <target>Cancel</target>
-            </trans-unit>
-            <trans-unit id="action.create_post">
-                <source>action.create_post</source>
-                <target>Create a new post</target>
+                <target>Annuler</target>
             </trans-unit>
             <trans-unit id="label.create_post">
                 <source>label.create_post</source>
-                <target>Create post</target>
+                <target>Créer un article</target>
+            </trans-unit>
+            <trans-unit id="action.create_post">
+                <source>action.create_post</source>
+                <target>Créer un nouvel article</target>
             </trans-unit>
             <trans-unit id="label.save_and_create_new">
                 <source>label.save_and_create_new</source>
-                <target>Save and create new</target>
+                <target>Enregistrer et créer un nouveau</target>
             </trans-unit>
             <trans-unit id="action.back_to_list">
                 <source>action.back_to_list</source>
-                <target>Back to the post list</target>
+                <target>Retour à la liste des articles</target>
             </trans-unit>
             <trans-unit id="action.publish_comment">
                 <source>action.publish_comment</source>
-                <target>Publish comment</target>
+                <target>Publier</target>
             </trans-unit>
             <trans-unit id="action.sign_in">
                 <source>action.sign_in</source>
-                <target>Sign in</target>
+                <target>Connectez-vous</target>
             </trans-unit>
             <trans-unit id="action.browse_app">
                 <source>action.browse_app</source>
-                <target>Browse application</target>
+                <target>Naviguer sur l'application</target>
             </trans-unit>
             <trans-unit id="action.browse_admin">
                 <source>action.browse_admin</source>
-                <target>Browse backend</target>
+                <target>Naviguer sur l'admin</target>
             </trans-unit>
             <trans-unit id="action.edit_user">
                 <source>action.edit_user</source>
-                <target>Edit user</target>
+                <target>Modifier l'utilisateur</target>
             </trans-unit>
             <trans-unit id="action.change_password">
                 <source>action.change_password</source>
-                <target>Change password</target>
-            </trans-unit>
-            <trans-unit id="action.close">
-                <source>action.close</source>
-                <target>Close</target>
+                <target>Modifier le mot de passe</target>
             </trans-unit>
 
             <trans-unit id="label.title">
                 <source>label.title</source>
-                <target>Title</target>
+                <target>Titre</target>
+            </trans-unit>
+            <trans-unit id="action.close">
+                <source>action.close</source>
+                <target>Fermer</target>
             </trans-unit>
             <trans-unit id="label.author">
                 <source>label.author</source>
-                <target>Author</target>
+                <target>Auteur</target>
             </trans-unit>
             <trans-unit id="label.author_email">
                 <source>label.author_email</source>
-                <target>Author email</target>
+                <target>Mail de l'auteur</target>
             </trans-unit>
             <trans-unit id="label.username">
                 <source>label.username</source>
-                <target>Username</target>
+                <target>Identifiant</target>
             </trans-unit>
             <trans-unit id="label.fullname">
                 <source>label.fullname</source>
-                <target>Fullname</target>
+                <target>Nom complet</target>
             </trans-unit>
             <trans-unit id="label.email">
                 <source>label.email</source>
-                <target>Email</target>
+                <target>Mail</target>
             </trans-unit>
             <trans-unit id="label.password">
                 <source>label.password</source>
-                <target>Password</target>
+                <target>Mot de passe</target>
             </trans-unit>
             <trans-unit id="label.current_password">
                 <source>label.current_password</source>
-                <target>Current password</target>
+                <target>Mot de passe actuel</target>
             </trans-unit>
             <trans-unit id="label.new_password">
                 <source>label.new_password</source>
-                <target>New password</target>
+                <target>Nouveau mot de passe</target>
             </trans-unit>
             <trans-unit id="label.new_password_confirm">
                 <source>label.new_password_confirm</source>
-                <target>Confirm password</target>
+                <target>Confirmer le mot de passe</target>
             </trans-unit>
             <trans-unit id="label.role">
                 <source>label.role</source>
-                <target>Role</target>
+                <target>Rôle</target>
             </trans-unit>
             <trans-unit id="label.content">
                 <source>label.content</source>
-                <target>Content</target>
+                <target>Contenu</target>
             </trans-unit>
             <trans-unit id="label.summary">
                 <source>label.summary</source>
-                <target>Summary</target>
+                <target>Résumé</target>
             </trans-unit>
             <trans-unit id="label.published_at">
                 <source>label.published_at</source>
-                <target>Published at</target>
+                <target>Publié le</target>
             </trans-unit>
             <trans-unit id="label.tags">
                 <source>label.tags</source>
@@ -257,44 +257,44 @@
             </trans-unit>
             <trans-unit id="title.post_new">
                 <source>title.post_new</source>
-                <target>Post creation</target>
+                <target>Ajouter un nouvel article</target>
             </trans-unit>
             <trans-unit id="action.edit_contents">
                 <source>action.edit_contents</source>
-                <target>Edit contents</target>
+                <target>Modifier le contenu</target>
             </trans-unit>
 
             <trans-unit id="menu.toggle_nav">
                 <source>menu.toggle_nav</source>
-                <target>Toggle navigation</target>
+                <target>Activer ou désactiver la navigation</target>
             </trans-unit>
             <trans-unit id="menu.choose_language">
                 <source>menu.choose_language</source>
-                <target>Choose language</target>
+                <target>Choisir la langue</target>
             </trans-unit>
             <trans-unit id="menu.post_list">
                 <source>menu.post_list</source>
-                <target>Post list</target>
+                <target>Liste des articles</target>
             </trans-unit>
             <trans-unit id="menu.back_to_blog">
                 <source>menu.back_to_blog</source>
-                <target>Back to blog</target>
+                <target>Retour au blog</target>
             </trans-unit>
             <trans-unit id="menu.homepage">
                 <source>menu.homepage</source>
-                <target>Homepage</target>
+                <target>Accueil</target>
             </trans-unit>
             <trans-unit id="menu.admin">
                 <source>menu.admin</source>
-                <target>Backend</target>
+                <target>Admin</target>
             </trans-unit>
             <trans-unit id="menu.user">
                 <source>menu.user</source>
-                <target>Account</target>
+                <target>Compte</target>
             </trans-unit>
             <trans-unit id="menu.logout">
                 <source>menu.logout</source>
-                <target>Logout</target>
+                <target>Déconnexion</target>
             </trans-unit>
             <trans-unit id="menu.rss">
                 <source>menu.rss</source>
@@ -302,173 +302,169 @@
             </trans-unit>
             <trans-unit id="menu.search">
                 <source>menu.search</source>
-                <target>Search</target>
+                <target>Recherche</target>
             </trans-unit>
 
             <trans-unit id="post.to_publish_a_comment">
                 <source>post.to_publish_a_comment</source>
-                <target>to publish a comment</target>
+                <target>pour publier un commentaire</target>
             </trans-unit>
             <trans-unit id="post.num_comments">
                 <source>post.num_comments</source>
-                <target>{count, plural, one {# comment} other {# comments}}</target>
+                <target>{count, plural, one {# commentaire} other {# commentaires}}</target>
             </trans-unit>
             <trans-unit id="post.commented_on">
                 <source>post.commented_on</source>
-                <target>commented on</target>
+                <target>commenté le</target>
             </trans-unit>
             <trans-unit id="post.no_comments">
                 <source>post.no_comments</source>
-                <target>Be the first to comment on this post.</target>
+                <target>Soyez le premier à commenter cet article.</target>
             </trans-unit>
             <trans-unit id="post.no_posts_found">
                 <source>post.no_posts_found</source>
-                <target>No posts found.</target>
+                <target>Aucun article trouvé.</target>
             </trans-unit>
             <trans-unit id="post.created_successfully">
                 <source>post.created_successfully</source>
-                <target>Post created successfully!</target>
+                <target>Article créé avec succès !</target>
             </trans-unit>
             <trans-unit id="post.updated_successfully">
                 <source>post.updated_successfully</source>
-                <target>Post updated successfully!</target>
+                <target>Article mis à jour avec succès !</target>
             </trans-unit>
             <trans-unit id="post.deleted_successfully">
                 <source>post.deleted_successfully</source>
-                <target>Post deleted successfully!</target>
+                <target>Article supprimé avec succès !</target>
             </trans-unit>
             <trans-unit id="post.search_for">
                 <source>post.search_for</source>
-                <target>Search for...</target>
+                <target>Rechercher...</target>
             </trans-unit>
             <trans-unit id="post.search_no_results">
                 <source>post.search_no_results</source>
-                <target>No results found</target>
+                <target>Aucun résultat</target>
             </trans-unit>
 
             <trans-unit id="user.updated_successfully">
                 <source>user.updated_successfully</source>
-                <target>User updated successfully!</target>
+                <target>Informations mises à jour avec succès !</target>
             </trans-unit>
 
             <trans-unit id="notification.comment_created">
                 <source>notification.comment_created</source>
-                <target>Your post received a comment!</target>
+                <target>Votre article a reçu un commentaire !</target>
             </trans-unit>
             <trans-unit id="notification.comment_created.description">
                 <source>notification.comment_created.description</source>
-                <target><![CDATA[Your post "{title}" has received a new comment. You can read the comment by following <a href="{link}">this link</a>]]></target>
+                <target><![CDATA[Votre article "{title}" a reçu un nouveau commentaire. Vous pouvez lire le commentaire en suivant <a href="{link}">ce lien</a>]]></target>
             </trans-unit>
 
             <trans-unit id="help.app_description">
                 <source>help.app_description</source>
-                <target><![CDATA[This is a <strong>demo application</strong> built in the Symfony Framework to illustrate the recommended way of developing Symfony applications.]]></target>
+                <target><![CDATA[Ceci est une <strong>application de démonstration</strong> construite avec le framework Symfony pour illustrer la façon recommandée de développer des applications Symfony.]]></target>
             </trans-unit>
             <trans-unit id="help.show_code">
                 <source>help.show_code</source>
-                <target><![CDATA[Click on this button to show the source code of the <strong>Controller</strong> and <strong>template</strong> used to render this page.]]></target>
+                <target><![CDATA[Cliquez sur ce bouton pour voir le code source du <strong>contrôleur</strong> et du <strong>template</strong> utilisé pour afficher cette page.]]></target>
             </trans-unit>
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
-                <target><![CDATA[Browse the <strong>public section</strong> of the demo application.]]></target>
+                <target><![CDATA[Parcourir la <strong>section publique</strong> de l'application de démonstration.]]></target>
             </trans-unit>
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
-                <target><![CDATA[Browse the <strong>admin backend</strong> of the demo application.]]></target>
+                <target><![CDATA[Parcourir l'<strong>interface d'administration</strong> de l'application de démonstration.]]></target>
             </trans-unit>
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
-                <target>Try either of the following users</target>
+                <target>Essayez l'un des utilisateurs suivants</target>
             </trans-unit>
             <trans-unit id="help.role_user">
                 <source>help.role_user</source>
-                <target>regular user</target>
+                <target>utilisateur normal</target>
             </trans-unit>
             <trans-unit id="help.role_admin">
                 <source>help.role_admin</source>
-                <target>administrator</target>
+                <target>administrateur</target>
             </trans-unit>
             <trans-unit id="help.reload_fixtures">
                 <source>help.reload_fixtures</source>
-                <target>If these users don't work, reload application fixtures by running this command from the terminal:</target>
+                <target>Si ces utilisateurs ne fonctionnent pas, rechargez les fixtures de l'application en exécutant cette commande depuis le terminal :</target>
             </trans-unit>
             <trans-unit id="help.add_user">
                 <source>help.add_user</source>
-                <target>If you want to create new users, run this other command:</target>
+                <target>Si vous voulez créer de nouveaux utilisateurs, exécutez cette autre commande :</target>
             </trans-unit>
             <trans-unit id="help.more_information">
                 <source>help.more_information</source>
-                <target><![CDATA[For more information, check out the <a href="https://symfony.com/doc">Symfony doc</a>.]]></target>
+                <target><![CDATA[Pour plus d'informations, consultez la <a href="https://symfony.com/doc">documentation de Symfony</a>.]]></target>
             </trans-unit>
             <trans-unit id="help.post_summary">
                 <source>help.post_summary</source>
-                <target>Summaries can't contain Markdown or HTML contents; only plain text.</target>
+                <target>Les résumés ne peuvent pas contenir de contenu Markdown ou HTML ; seulement du texte brut.</target>
             </trans-unit>
             <trans-unit id="help.post_publication">
                 <source>help.post_publication</source>
-                <target>Set the date in the future to schedule the blog post publication.</target>
+                <target>Sélectionnez une date future pour programmer la publication de l'article.</target>
             </trans-unit>
             <trans-unit id="help.post_content">
                 <source>help.post_content</source>
-                <target>Use Markdown to format the blog post contents. HTML is allowed too.</target>
+                <target>Utilisez du Markdown pour formater le contenu de l'article. Le HTML est également autorisé.</target>
             </trans-unit>
             <trans-unit id="help.comment_content">
                 <source>help.comment_content</source>
-                <target>Comments not complying with our Code of Conduct will be moderated.</target>
+                <target>Les commentaires non conformes à notre code de conduite seront modérés.</target>
             </trans-unit>
 
             <trans-unit id="info.change_password">
                 <source>info.change_password</source>
-                <target>After changing your password, you will be logged out of the application.</target>
+                <target>Après avoir modifié votre mot de passe, vous serez déconnecté de l'application.</target>
             </trans-unit>
 
             <trans-unit id="rss.title">
                 <source>rss.title</source>
-                <target>Symfony Demo blog</target>
+                <target>Blog de démo Symfony</target>
             </trans-unit>
             <trans-unit id="rss.description">
                 <source>rss.description</source>
-                <target>Most recent posts published on the Symfony Demo blog</target>
+                <target>Derniers articles publiés sur le blog de démo Symfony</target>
             </trans-unit>
 
             <trans-unit id="paginator.previous">
                 <source>paginator.previous</source>
-                <target>Previous</target>
+                <target>Précédent</target>
             </trans-unit>
             <trans-unit id="paginator.next">
                 <source>paginator.next</source>
-                <target>Next</target>
+                <target>Suivant</target>
             </trans-unit>
-            <trans-unit id="paginator.current">
-                <source>paginator.current</source>
-                <target>(current)</target>
-            </trans-unit>
+
             <!--=====================================-->
             <!--=        General TRANS       =-->
             <!--=====================================-->
             <trans-unit id="en.savoir-plus">
                 <source>En savoir plus</source>
-                <target>Read more</target>
+                <target>En savoir plus</target>
             </trans-unit>
             <trans-unit id="voirnosoffres">
                 <source>Voir nos offres</source>
-                <target>See our offers</target>
+                <target>Voir nos offres</target>
             </trans-unit>
             <!--=====================================-->
             <!--=        Menu TRANS       =-->
             <!--=====================================-->
-
             <trans-unit id="accueil">
                 <source>Accueil</source>
-                <target>Home</target>
+                <target>Accueil</target>
             </trans-unit>
             <trans-unit id="services">
                 <source>Services</source>
-                <target>Our services</target>
+                <target>Services</target>
             </trans-unit>
-            <trans-unit id="projet">
+            <trans-unit id="nos.projets">
                 <source>Nos projets</source>
-                <target>Our projects</target>
+                <target>Nos projets</target>
             </trans-unit>
             <trans-unit id="blog">
                 <source>Blog</source>
@@ -480,61 +476,61 @@
             </trans-unit>
             <trans-unit id="une.offre_sur_mesure">
                 <source>Une solution sur-mesure</source>
-                <target>A customised video offer</target>
+                <target>Une solution sur-mesure</target>
             </trans-unit>
             <trans-unit id="contenuVideo">
                 <source>Votre abonnement de contenu vidéo</source>
-                <target>Your video content subscription</target>
+                <target>Votre abonnement de contenu vidéo</target>
             </trans-unit>
             <!--=====================================-->
             <!--=        Services TRANS       =-->
             <!--=====================================-->
             <trans-unit id="repartissez">
                 <source>Répartissez votre investissement</source>
-                <target>Spread your investment</target>
+                <target>Répartissez votre investissement</target>
             </trans-unit>
             <trans-unit id="multipliez">
                 <source>Multipliez le contenu</source>
-                <target>Multiply the content</target>
+                <target>Multipliez le contenu</target>
             </trans-unit>
             <trans-unit id="reactivite">
                 <source>Réactivité</source>
-                <target>Reactivity</target>
+                <target>Réactivité</target>
             </trans-unit>
             <trans-unit id="reactivite.2">
                 <source>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</source>
-                <target>Media and fashion trends are constantly evolving, subscription guarantees you adaptability and reactivity.</target>
+                <target>Les médias et les tendances de mode sont en constante évolution, l'abonnement vous garantit adaptabilité et réactivité.</target>
             </trans-unit>
             <trans-unit id="contenu">
                 <source>Contenu</source>
-                <target>Content</target>
+                <target>Contenu</target>
             </trans-unit>
             <trans-unit id="contenu.2">
                 <source>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</source>
-                <target>More content means more opportunities to communicate about all aspects of your business, without limits.</target>
+                <target>Plus de contenu signifie plus d'opportunités de communiquer sur tous les aspects de votre entreprise, sans limites.</target>
             </trans-unit>
             <trans-unit id="equilibre">
                 <source>Equilibre</source>
-                <target>Balance</target>
+                <target>Equilibre</target>
             </trans-unit>
             <trans-unit id="equilibre.2">
                 <source>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</source>
-                <target>Our offer strikes the right balance between content quality, production frequency and your initial costs.</target>
+                <target>Notre offre concilie un juste équilibre entre qualité de contenu, fréquence de production et respect de vos coûts initiaux.</target>
             </trans-unit>
             <trans-unit id="nosrealisations">
                 <source>Découvrir nos dernières réalisations.</source>
-                <target>Discover our latest projects.</target>
+                <target>Découvrir nos dernières réalisations.</target>
             </trans-unit>
             <!--=====================================-->
             <!--=        Services Page       =-->
             <!--=====================================-->
             <trans-unit id="workflow">
                 <source>Un workflow revolutionnaire</source>
-                <target>Revolutionary workflow</target>
+                <target>Un workflow revolutionnaire</target>
             </trans-unit>
             <trans-unit id="deleguez">
                 <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
-                <target>Delegate, save time and focus on the essentials.</target>
+                <target>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</target>
             </trans-unit>
             <trans-unit id="ser.vice">
                 <source>Service</source>
@@ -542,46 +538,47 @@
             </trans-unit>
             <trans-unit id="entre.prise">
                 <source>Entreprise</source>
-                <target>Company</target>
+                <target>Entreprise</target>
             </trans-unit>
             <trans-unit id="evenementiel">
                 <source>Evenementiel</source>
-                <target>Events</target>
+                <target>Evenementiel</target>
             </trans-unit>
             <trans-unit id="pub">
                 <source>Publicité et Promotion</source>
-                <target>Advertising et Promotion</target>
+                <target>Publicité et Promotion</target>
             </trans-unit>
             <trans-unit id="social">
                 <source>Réseaux sociaux</source>
-                <target>Social networks</target>
+                <target>Réseaux sociaux</target>
             </trans-unit>
             <trans-unit id="animation">
                 <source>Animation et VFX</source>
-                <target>Animation and VFX</target>
+                <target>Animation et VFX</target>
             </trans-unit>
+
             <trans-unit id="Educatif">
                 <source>Educatif</source>
-                <target>Education</target>
-            </trans-unit>
-            <trans-unit id="filmEntreprise">
-                <source>Film d’entreprise</source>
-                <target>Corporate film</target>
+                <target>Educatif</target>
             </trans-unit>
             <trans-unit id="withemployee">
                 <source>Vidéo interview collaborateur et client</source>
-                <target>Video interview with employee and client</target>
+                <target>Vidéo interview collaborateur et client</target>
+            </trans-unit>
+            <trans-unit id="filmEntreprise">
+                <source>Film d’entreprise</source>
+                <target>Film d’entreprise</target>
             </trans-unit>
             <trans-unit id="filmEntreprise1">
                 <source>Présentez votre entreprise, vos valeurs, votre savoir-faire ainsi que vos collaborateurs dans un format de vidéo conçu entièrement sur-mesure afin de refléter au mieux ce qui vous rend unique.
                                      Nous façonnons le style de la vidéo de la manière la plus juste possible afin que le résultat vous permette d’accomplir les objectifs souhaités.</source>
-                <target>Present your company, your values, your know-how and your employees in a video format that is entirely tailor-made to best reflect what makes you unique.
-                                     We shape the style of the video as accurately as possible so that the result allows you to achieve your desired objectives.</target>
+                <target>Présentez votre entreprise, vos valeurs, votre savoir-faire ainsi que vos collaborateurs dans un format de vidéo conçu entièrement sur-mesure afin de refléter au mieux ce qui vous rend unique.
+                                     Nous façonnons le style de la vidéo de la manière la plus juste possible afin que le résultat vous permette d’accomplir les objectifs souhaités.</target>
             </trans-unit>
             <trans-unit id="filmEntreprise2">
                 <source>Profitez d’un des meilleurs outils de génération de prospects.
                                      Souvent utilisé par les équipes marketing et commerciales pour communiquer, engager et convertir, il s’agit d’un moyen percutant d’augmenter la notoriété de votre marque ou d’unde vos services.</source>
-                <target>Take advantage of one of the best lead generation tools. Often used by marketing and sales teams to communicate, engage and convert, it is a powerful way to increase awareness of your brand or service.
+                <target>Profitez d’un des meilleurs outils de génération de prospects. Souvent utilisé par les équipes marketing et commerciales pour communiquer, engager et convertir, il s’agit d’un moyen percutant d’augmenter la notoriété de votre marque ou d’unde vos services.
 
                 </target>
             </trans-unit>
@@ -590,192 +587,193 @@
                                             ou bien avec des avis de satisfaction positifs de vos clients actifs.
                                                 Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion de vos équipes,
                                                  la réussite de vos projets et les avantages à travailler au sein de votre organisation.</source>
-                <target>Develop your communication and attract new customers by reinforcing your image with poignant testimonials from employees or positive reviews from your active customers.
-                        Increase your chances of retaining employees and acquiring new ones by highlighting the cohesion of your teams, the success of your projects and the benefits of working within your organisation.
+                <target>Développez votre communication et attirez de nouveaux de clients en renforçant votre image avec des témoignages poignants de collaborateurs ou bien avec des avis de satisfaction positifs de vos clients actifs.
+                        Augmentez vos chances de conserver vos collaborateurs et d’en acquérir de nouveaux en mettant en valeur la cohésion devos équipes, la réussite de vos projets et les avantages à travailler au sein de votre organisation.
                 </target>
             </trans-unit>
             <trans-unit id="captation">
                 <source>Captation d'événement</source>
-                <target>Event recording</target>
+                <target>Captation d'événement</target>
             </trans-unit>
             <trans-unit id="captation1">
                 <source>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</source>
-                <target>Fully recording all the events you organise not only provides you with new content to use for future videos, but also enhances your professionalism with guests and your audience, who will then have exclusive access to the highlights of your company's events.</target>
+                <target>Enregistrer entièrement tous les événements que vous organisez vous permet non seulement d’obtenir une nouvelle de contenu à exploiter pour de futures vidéos, mais aussi, la captation d’événement renforce votre professionnalisme vis-à-vis des invités et de votre audience, qui, par la suite, auront un accès exclusif aux moments forts des événements de votre entreprise.</target>
             </trans-unit>
             <trans-unit id="captation2">
                 <source>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</source>
-                <target>Take your event capture to the next level with streaming by turning it into an instant live broadcast on as many social networks as you want. Streaming gives you the opportunity to create significant audience preparation to maximise impact and viewer interaction.</target>
-            </trans-unit>
-            <trans-unit id="captation3">
-                <source>Vidéo aftermovie</source>
-                <target>Aftermovie</target>
+                <target>Passez au niveau supérieur avec le streaming en transformant votre captation d’événement en une diffusion live instantanée sur autant de réseaux sociaux que vous le souhaitez. Le streaming vous donne l’occasion de créer une importante préparation d’audience pour maximiser l’impact et l’interaction des spectateurs.</target>
             </trans-unit>
             <trans-unit id="captation4">
                 <source>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</source>
-                <target>Immortalise the highlights of your event, incorporate interventions in the form of interviews with guests or your staff. This format allows you to obtain an energetic, short and effective summary to enhance your company's image.</target>
+                <target>Immortalisez les moments forts de votre événement, incorporez des interventions sous forme d’interviews d’invités ou de vos collaborateurs. Ce format vous permet d’obtenir un condensé énergique, court et efficace pour valoriser l’image de votre entreprise.</target>
             </trans-unit>
             <trans-unit id="pubPromo">
                 <source>Publicité et Promotion</source>
-                <target>Advertising and Promotion</target>
+                <target>Publicité et Promotion</target>
             </trans-unit>
             <trans-unit id="pubPromo1">
                 <source>Vidéo publicitaire</source>
-                <target>Advertising video</target>
+                <target>Vidéo publicitaire</target>
             </trans-unit>
             <trans-unit id="pubPromo2">
                 <source>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</source>
-                <target>This video format allows you to generate attention and excitement among your target audience for a product or service you wish to promote. By making a video that intensely captures the attention of your audience, your company's recognition grows strongly.</target>
+                <target>Ce format de vidéo vous permet de générer de l’attention et de l’excitation auprès de l’audience que vous ciblez pour un produit ou un service que vous souhaitez mettre en avant. En réalisant une vidéo qui capte intensément l’attention de votre audience, la reconnaissance de votre entreprise grandit fortement.</target>
             </trans-unit>
             <trans-unit id="pubPromo3">
                 <source>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</source>
-                <target>Create a short, engaging video that correctly and effectively explains the features of your product. You have a video that aims to provide relevant information and value to your audience by consistently taking a unique, focused approach to the problem your product solves.</target>
+                <target>Créez une vidéo courte, engageante et qui explique correctement, efficacement, les caractéristiques de votre produit. Vous disposez d’une vidéo qui a pour but de fournir de l’information pertinente et de la valeur auprès de votre audience en prenant systématiquement un angle d’approche unique et focalisé sur le problème que votre produit résout.</target>
             </trans-unit>
             <trans-unit id="pubPromo4">
                 <source>Présentation de produit</source>
-                <target>Product overview</target>
+                <target>Présentation de produit</target>
             </trans-unit>
             <trans-unit id="pubPromo5">
                 <source>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</source>
-                <target>Create and build trust with one of the most powerful tools in video communication. Together we develop the ideal format for the target audience and optimise the video according to the objectives set beforehand.</target>
+                <target>Créez et renforcez la confiance de votre public avec l’un des outils les plus puissants de la communication vidéo. Nous développons ensemble le format idéal correspondant au public ciblé et optimisons la vidéo selon les objectifs fixés au préalable.</target>
             </trans-unit>
             <trans-unit id="socialNetwork">
                 <source>Campagne réseaux sociaux</source>
-                <target>Social media campaign</target>
+                <target>Campagne réseaux sociaux</target>
             </trans-unit>
             <trans-unit id="socialNetwork1">
                 <source>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</source>
-                <target>Your communication needs a properly established structure and plan, with clear objectives, a strategic route and a regular and sustainable operation. Using our strategic creation and planning as well as tactical implementation services will allow you to successfully achieve these goals.</target>
+                <target>Votre communication nécessite une structure et un plan établi correctement, avec des objectifs précis, un itinéraire stratégique et un fonctionnement régulier et durable. Utiliser nos services de création et planification stratégique ainsi que d’implémentation tactique vous permettront d’atteindre ces objectifs avec succès.</target>
             </trans-unit>
             <trans-unit id="socialNetwork2">
                 <source>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</source>
-                <target>Your creative campaign deserves the best possible resources to feed your communication, whether it is on your website or your social networks. With Lunari, you can choose between animated content, videos, photographs, graphic illustrations and many other resources that are essential to a rich content for your communication.</target>
+                <target>Votre campagne de création mérite les meilleures ressources possibles pour alimenter votre communication, que ce soit sur votre site internet ou vos réseaux sociaux. Avec Lunari, vous avez le choix entre des contenus animés, vidéos, photographies, illustrations graphiques et bien d’autres ressources indispensables à une richesse de contenu pour votre communication.</target>
             </trans-unit>
             <trans-unit id="socialNetwork3">
                 <source>Automatisation Instagram</source>
-                <target>Instagram automation</target>
+                <target>Automatisation Instagram</target>
             </trans-unit>
             <trans-unit id="socialNetwork4">
                 <source>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</source>
-                <target>Take advantage of one of our latest IT advances with our system offering a wide variety of filters and customisation options to help you increase the number of followers, likes and comments on Instagram.</target>
+                <target>Profitez d’une de nos dernières avancées informatiques grâce à notre système notre système proposant une grande variété de filtres et d'options de personnalisation pour vous aider à augmenter le nombre de followers, de likes et de commentaires sur Instagram.</target>
             </trans-unit>
             <trans-unit id="vfx">
                 <source>Vidéo animation 2D/3D</source>
-                <target>2D/3D video animation</target>
+                <target>Vidéo animation 2D/3D</target>
             </trans-unit>
             <trans-unit id="vfx1">
                 <source>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</source>
-                <target>As well as providing instantly recognisable and unique content, animation opens the door to endless possibilities and limitless creativity. Choose 2D animation for a faster, more cost-effective workflow, or choose 3D animation for a more realistic rendering that can also be turned into interactive content.</target>
+                <target>En plus de fournir un contenu instantanément reconnaissable et unique, l’animation vous ouvre les portes de possibilités infinies et de créativité sans limites. Optez pour l’animation 2D pour un workflow plus économique et rapide ou bien choisissez l’animation 3D pour un rendu plus réaliste et qui peut aussi être transformé en contenu interactif.</target>
             </trans-unit>
             <trans-unit id="vfx2">
                 <source>Effets visuels - VFX</source>
-                <target>Visual effects - VFX</target>
+                <target>Effets visuels - VFX</target>
             </trans-unit>
             <trans-unit id="vfx3">
                 <source>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</source>
-                <target>Enhance the style and creativity of standard videos by adding custom visual effects. The use of green screen, integration of 3D elements, background changes, removal of objects or people and many other specialties can be added to your video projects to give them more originality and impact.</target>
+                <target>Améliorez le style et la créativité de vidéos standard en y ajoutant des effets visuels personnalisés. L’utilisation de fond vert, l’intégration d’éléments 3D, changements d’arrière-plan, suppression d’objets ou de personnes et bien d’autres spécialités peuvent être ajoutés dans vos projets vidéo pour leur apporter plus d’originalité et d’impact.</target>
             </trans-unit>
             <trans-unit id="vfx4">
                 <source>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</source>
-                <target>With interactive video, the viewer becomes a user who can make decisions and thus have a sense of control. Videos can be structured to perfectly match target groups. The major advantage of this type of content is that it generates a drastically higher engagement with the audience, which increases the chances of return on investment.</target>
+                <target>Avec la vidéo interactive, le spectateur devient un utilisateur qui peut prendre des décisions et ainsi avoir un sentiment de contrôle. Les vidéos peuvent être structurées de manière à correspondre parfaitement à des groupes cibles. L’avantage majeur de ce type de contenu est qu’il suscite un engagement drastiquement plus élevé auprès de l’audimat, ce qui augmente les chances de retour sur investissement.</target>
+            </trans-unit>
+            <trans-unit id="vfx5">
+                <source>Effets visuels - VFX</source>
+                <target>Effets visuels - VFX</target>
             </trans-unit>
             <trans-unit id="edu">
                 <source>Vidéo tutoriel / didactielle</source>
-                <target>Video tutorial / tutorial</target>
+                <target>Vidéo tutoriel / didactielle</target>
             </trans-unit>
             <trans-unit id="edu1">
                 <source>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.</source>
-                <target>Create a video that is both explanatory and entertaining, and get rich content that will have the potential to be used and consumed over and over again by your audience and your employees. With Lunari, you can easily create videos on simple or more complex topics that need to be presented to an audience.</target>
+                <target>Créez une vidéo explicative et divertissante à la fois et obtenez un contenu riche qui aura la possibilité d’être toujours utilisé et consommé par votre audience ainsi que vos employés. Avec Lunari, vous pouvez facilement créer des vidéos sur des sujets simples ou plus complexes qui nécessitent d’être présentés à une audience.</target>
             </trans-unit>
             <trans-unit id="edu2">
                 <source>Vidéo de formation</source>
-                <target>Training video</target>
+                <target>Vidéo de formation</target>
             </trans-unit>
             <trans-unit id="edu3">
                 <source>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</source>
-                <target>In order to strengthen the existing skills of your employees and to prepare the ground for the acquisition of new employees, Lunari helps you to develop the perfect content to educate, train and explain key concepts and working methods of your organisation.</target>
+                <target>Afin de renforcer les compétences actuelles de vos collaborateurs et de préparer le terrain à l’acquisition de nouveaux employés, Lunari vous aide à élaborer les contenus parfaits pour instruire, former et expliquer des concepts et méthodes de travail clé de votre organisation.</target>
             </trans-unit>
 
 
 
             <trans-unit id="formules">
                 <source>3 Formules</source>
-                <target>3 Packages</target>
+                <target>3 Formules</target>
             </trans-unit>
             <trans-unit id="formules2">
                 <source>Pour atteindre vos objectifs</source>
-                <target>To reach your goals</target>
+                <target>Pour atteindre vos objectifs</target>
             </trans-unit>
             <trans-unit id="immersion">
                 <source>Notre service d'abonnement sur-mesure de production de contenu vidéo..</source>
-                <target>Our custom video content production subscription service...</target>
+                <target>Notre service d'abonnement sur-mesure de production de contenu vidéo..</target>
             </trans-unit>
             <trans-unit id="unity">
                 <source>Un projet individuel ? Vous avez à votre disposition tous les services qu'il vous faut..</source>
-                <target>An individual project? You have at your disposal all the services you need.</target>
+                <target>Un projet individuel ? Vous avez à votre disposition tous les services qu'il vous faut..</target>
             </trans-unit>
             <trans-unit id="lunix">
                 <source>Votre contenu, avec Lunix, vous filmez et nous réalisons le montage de vos vidéos..</source>
-                <target>Your content, with Lunix, you film and we edit your videos.</target>
+                <target>Votre contenu, avec Lunix, vous filmez et nous réalisons le montage de vos vidéos..</target>
             </trans-unit>
             <trans-unit id="confiance">
                 <source>Ils nous font confiance</source>
-                <target>They trust us</target>
+                <target>Ils nous font confiance</target>
             </trans-unit>
             <trans-unit id="confiance2">
                 <source>Pour la réalisation de leur vidéo</source>
-                <target>For the production of their video </target>
+                <target>Pour la réalisation de leur vidéo</target>
             </trans-unit>
+
             <trans-unit id="avisClient">
                 <source>Avis clients</source>
-                <target>Customer reviews</target>
+                <target>Avis clients</target>
             </trans-unit>
             <trans-unit id="avisClient2">
                 <source>Ce qu'on dit de nous</source>
-                <target>What they say about us</target>
+                <target>Ce qu'on dit de nous</target>
             </trans-unit>
             <trans-unit id="avisClient3">
-                <source>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérite.</source>
-                <target>You too can get the tailored video offer your business deserves.</target>
+                <source>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérit.</source>
+                <target>Vous aussi, obtenez l'offre de vidéo sur mesure que votre entreprise mérite.</target>
             </trans-unit>
             <trans-unit id="champion">
                 <source>Des jeunes motivés et très sympathiques, la classe.</source>
-                <target>Motivated and very friendly young people, a class act.</target>
+                <target>Des jeunes motivés et très sympathiques, la classe.</target>
             </trans-unit>
             <trans-unit id="Golay">
-                <source>Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.</source>
-                <target>Very nice collaboration that gave birth to two high quality videos. Thanks to the Lunari team.</target>
+                <source> Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.</source>
+                <target> Très belle collaboration qui a donné naissance à deux vidéo de grande qualité. Merci à l’équipe de Lunari.</target>
             </trans-unit>
             <trans-unit id="Suchet">
                 <source>J'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J'ai apprécié l'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo.</source>
-                <target>I worked with Lunari on the video project for the renovation of the International Labour Office by Steiner SA. I appreciated the professional guidance of this agency as well as its flexibility throughout the project. Lunari was also able to integrate motion design elegantly into the video.</target>
+                <target>J'ai collaboré avec Lunari sur le projet de vidéo concernant la rénovation réalisée par Steiner SA au Bureau international du Travail. J'ai apprécié l'accompagnement professionnel de cette agence ainsi que sa flexibilité tout au long du projet. Lunari a également su intégrer élégamment le motion design dans cette vidéo.</target>
             </trans-unit>
             <trans-unit id="comment">
                 <source>Comment pouvons-nous vous aider ?</source>
-                <target>How can we help you?</target>
+                <target>Comment pouvons-nous vous aider ?</target>
             </trans-unit>
             <trans-unit id="projetvideo">
                 <source>Un projet vidéo ?</source>
-                <target>A video project?</target>
+                <target>Un projet vidéo ?</target>
             </trans-unit>
             <trans-unit id="demanderdevis">
                 <source>Demander un devis</source>
-                <target>Get a quote</target>
+                <target>Demander un devis</target>
             </trans-unit>
             <trans-unit id="newsletter">
                 <source>Notre newsletter</source>
-                <target>Our newsletter</target>
+                <target>Notre newsletter</target>
             </trans-unit>
             <trans-unit id="newsletter2">
                 <source>Pour ne louper aucune de nos dernières actualités..</source>
-                <target>So you don't miss any of our latest news..</target>
+                <target>Pour ne louper aucune de nos dernières actualités..</target>
             </trans-unit>
             <trans-unit id="souscrire">
                 <source>Souscrire</source>
-                <target>Subscribe</target>
+                <target>Souscrire</target>
             </trans-unit>
             <trans-unit id="nosolutions">
                 <source>Nos solutions</source>
-                <target>Our solutions</target>
+                <target>Nos solutions</target>
             </trans-unit>
             <trans-unit id="offreunity">
                 <source>Offre Unity</source>
@@ -795,202 +793,200 @@
             </trans-unit>
             <trans-unit id="politiques">
                 <source>Politique de confidentialité</source>
-                <target>Privacy Policy</target>
+                <target>Politique de confidentialité</target>
             </trans-unit>
             <trans-unit id="termes">
                 <source>Termes et conditions d'utilisations</source>
-                <target>Terms and conditions of use</target>
+                <target>Termes et conditions d'utilisations</target>
             </trans-unit>
             <trans-unit id="droits">
                 <source>© 2022. Tous droits réservés à</source>
-                <target>© 2022. All rights reserved to</target>
+                <target>© 2022. Tous droits réservés à</target>
             </trans-unit>
-
 
 
             <trans-unit id="deleque">
                 <source>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</source>
-                <target>Delegate, save time and focus on the essentials.</target>
+                <target>Déléguez, gagnez du temps et concentrez-vous sur l’essentiel.</target>
             </trans-unit>
             <trans-unit id="deleque2">
                 <source>Qu'est-ce que Lunix ?</source>
-                <target>What is Lunix?</target>
+                <target>Qu'est-ce que Lunix ?</target>
             </trans-unit>
             <trans-unit id="deleque3">
                 <source>Lunix est une solution qui vous permet de réaliser vous-même vos vidéos et de nous en confier le montage. Elle met à votre disposition la possibilité de louer nos kits de matériel professionnels ainsi qu’une équipe de montage vidéo qui vous permet d’optimiser et accélérer votre processus de création de contenu.</source>
-                <target>What is Lunix Lunix is a solution that allows you to make your own videos and entrust us with the editing. It offers you the possibility of renting our professional equipment kits and a video editing team that allows you to optimise and accelerate your content creation process.</target>
+                <target>Lunix est une solution qui vous permet de réaliser vous-même vos vidéos et de nous en confier le montage. Elle met à votre disposition la possibilité de louer nos kits de matériel professionnels ainsi qu’une équipe de montage vidéo qui vous permet d’optimiser et accélérer votre processus de création de contenu.</target>
             </trans-unit>
             <trans-unit id="deleque4">
                 <source>Pourquoi choisir Lunix ?</source>
-                <target>Why choose Lunix?</target>
+                <target>Pourquoi choisir Lunix ?</target>
             </trans-unit>
             <trans-unit id="deleque5">
                 <source>Recyclez !</source>
-                <target>Recycle!</target>
+                <target>Recyclez !</target>
             </trans-unit>
             <trans-unit id="deleque6">
                 <source>Vous pouvez réutiliser tout le contenu que vous ne pensiez peut-être jamais utiliser en permettant à des monteurs dédiés d’en extraire le meilleur pour en réaliser une vidéo.</source>
-                <target>You can reuse all the content you may never have thought to use by allowing dedicated editors to extract the best from it and make a video.</target>
+                <target>Vous pouvez réutiliser tout le contenu que vous ne pensiez peut-être jamais utiliser en permettant à des monteurs dédiés d’en extraire le meilleur pour en réaliser une vidéo.</target>
             </trans-unit>
             <trans-unit id="deleque7">
                 <source>Gain de temps</source>
-                <target>Saving time</target>
+                <target>Gain de temps</target>
             </trans-unit>
             <trans-unit id="deleque8">
                 <source>Gagnez un temps précieux en déléguant le travail de post-production de vos vidéos</source>
-                <target>Save valuable time by delegating the post-production of your videos.</target>
+                <target>Gagnez un temps précieux en déléguant le travail de post-production de vos vidéos</target>
             </trans-unit>
             <trans-unit id="deleque9">
                 <source>Formation complémentaire</source>
-                <target>Complementary training</target>
+                <target>Formation complémentaire</target>
             </trans-unit>
             <trans-unit id="deleque10">
                 <source>Vous bénéficiez de cours individuels et d’une librairie de vidéos de formation pour améliorer vos compétences en réalisation et tournage.</source>
-                <target>You benefit from individual tuition and a library of training videos to improve your directing and filming skills.</target>
+                <target>Vous bénéficiez de cours individuels et d’une librairie de vidéos de formation pour améliorer vos compétences en réalisation et tournage.</target>
             </trans-unit>
             <trans-unit id="deleque11">
                 <source>Un pour tous, tous pour un</source>
-                <target>One for all, all for one</target>
+                <target>Un pour tous, tous pour un</target>
             </trans-unit>
             <trans-unit id="deleque12">
                 <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
-                <target>Take advantage of the creative benefits of the synergy brought about by the collaboration of several trades working together on a single project.</target>
+                <target>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</target>
             </trans-unit>
             <trans-unit id="deleque13">
                 <source>Besoin de renfort ?</source>
-                <target>Do you need reinforcement?</target>
+                <target>Besoin de renfort ?</target>
             </trans-unit>
             <trans-unit id="deleque14">
                 <source>Vous bénéficiez d’un accès permanent à notre réseau d’opérateurs caméra que vous pouvez solliciter lorsque vous avez besoin de renfort supplémentaire lors de vos tournages ou que vous ne pouvez être présent.</source>
-                <target>You have permanent access to our network of camera operators who you can call on when you need extra support during your shoots or when you cannot be present.</target>
+                <target>Vous bénéficiez d’un accès permanent à notre réseau d’opérateurs caméra que vous pouvez solliciter lorsque vous avez besoin de renfort supplémentaire lors de vos tournages ou que vous ne pouvez être présent.</target>
             </trans-unit>
             <trans-unit id="deleque15">
                 <source>Faites du travail collaboratif un atout.</source>
-                <target>Make collaborative work an asset.</target>
+                <target>Faites du travail collaboratif un atout.</target>
             </trans-unit>
             <trans-unit id="deleque16">
                 <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
-                <target>By dividing up and allocating responsibility for the various production tasks, you unlock accelerated and optimal collaboration based on your expectations.</target>
+                <target>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</target>
             </trans-unit>
             <trans-unit id="deleque17">
                 <source>Donnez vies à vos idées.</source>
-                <target>Bring your ideas to life.</target>
+                <target>Donnez vies à vos idées.</target>
             </trans-unit>
             <trans-unit id="deleque18">
                 <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
-                <target>Complete any project you can imagine without limits. Greatly improve your video content production chain</target>
+                <target>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo
+                </target>
             </trans-unit>
-
 
             <trans-unit id="lunarimmersion">
                 <source>Une solution sur mesure. Un abonnement de contenu vidéo</source>
-                <target>A tailor-made solution. A video content subscription</target>
+                <target>Une solution sur mesure. Un abonnement de contenu vidéo</target>
             </trans-unit>
             <trans-unit id="lunarimmersion2">
                 <source>Qu'est-ce qu'Immersion ?</source>
-                <target>What is Immersion?</target>
+                <target>Qu'est-ce qu'Immersion ?</target>
             </trans-unit>
             <trans-unit id="lunarimmersion3">
                 <source>Immersion est une solution qui vous aide à accomplir vos objectifs entrepreneuriaux. Elle met à votre disposition la création de contenu vidéo qui vous permet d’informer, d’attirer de nouveaux clients, de développer votre réputation, d’augmenter vos ventes et de faire évoluer votre entreprise.</source>
-                <target>Immersion is a solution that helps you achieve your business goals. It provides you with the creation of video content that allows you to inform, attract new customers, develop your reputation, increase your sales and grow your business.</target>
+                <target>Immersion est une solution qui vous aide à accomplir vos objectifs entrepreneuriaux. Elle met à votre disposition la création de contenu vidéo qui vous permet d’informer, d’attirer de nouveaux clients, de développer votre réputation, d’augmenter vos ventes et de faire évoluer votre entreprise.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion4">
                 <source>Pourquoi choisir Immersion ?</source>
-                <target>Why choose Immersion?</target>
+                <target>Pourquoi choisir Immersion ?</target>
             </trans-unit>
             <trans-unit id="lunarimmersion5">
-                <source>Provoquez un impact durable.</source>
-                <target>Make a lasting impact.</target>
+                <source>Provoquez un impact durable</source>
+                <target>Provoquez un impact durable</target>
             </trans-unit>
             <trans-unit id="lunarimmersion6">
                 <source>Offrez plus de valeur et de résultats sur le long terme avec un partage régulier de nouvelles vidéos uniques pour votre communication globale.</source>
-                <target>Deliver more value and results over the long term with regular sharing of new and unique videos for your global communication.</target>
+                <target>Offrez plus de valeur et de résultats sur le long terme avec un partage régulier de nouvelles vidéos uniques pour votre communication globale.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion7">
                 <source>Adaptez-vous à toutes les situations</source>
-                <target>Adapt to any situation</target>
+                <target>Adaptez-vous à toutes les situations</target>
             </trans-unit>
             <trans-unit id="lunarimmersion8">
                 <source>Adaptez-vous simplement comme vous le souhaitez en fonction de l’évolution des priorités commerciales, des opportunités client, et ce, au fur et à mesure qu’elles apparaissent.</source>
-                <target>Simply adapt as you see fit to changing business priorities, customer opportunities, and as they arise.
-                </target>
+                <target>Adaptez-vous simplement comme vous le souhaitez en fonction de l’évolution des priorités commerciales, des opportunités client, et ce, au fur et à mesure qu’elles apparaissent.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion9">
                 <source>Créez de l’information continuellement</source>
-                <target>Create information continuously.</target>
+                <target>Créez de l’information continuellement</target>
             </trans-unit>
             <trans-unit id="lunarimmersion10">
                 <source>Obtenez de meilleurs résultats de notoriété, d’engagement auprès de votre audience et ainsi de ventes, grâce à une fréquence accrue de diffusion du contenu vidéo créé.</source>
-                <target>Get better results in terms of awareness, engagement with your audience and thus sales, thanks to the increased frequency of distribution of the video content created.</target>
+                <target>Obtenez de meilleurs résultats de notoriété, d’engagement auprès de votre audience et ainsi de ventes, grâce à une fréquence accrue de diffusion du contenu vidéo créé.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion11">
                 <source>Un pour tous, tous pour un</source>
-                <target>One for all, all for one</target>
+                <target>Un pour tous, tous pour un</target>
             </trans-unit>
             <trans-unit id="lunarimmersion12">
                 <source>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</source>
-                <target>Take advantage of the creative benefits of the synergy brought about by the collaboration of several trades working together on a single project.</target>
+                <target>Profitez des avantages créatifs de la synergie apportée par la collaboration de plusieurs corps de métiers réunis autour d’un même projet.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion14">
                 <source>Restez prêts pour l'avenir.</source>
-                <target>Stay prepared for the future.</target>
+                <target>Restez prêts pour l'avenir.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion13">
                 <source>Relevez les opportunités de demain en intégrant dans votre entreprise une solution pour votre communication que vous pouvez modifier et adapter mois après mois.</source>
-                <target>Take advantage of tomorrow's opportunities by integrating a communication solution into your business that you can modify and adapt month after month.</target>
+                <target>Relevez les opportunités de demain en intégrant dans votre entreprise une solution pour votre communication que vous pouvez modifier et adapter mois après mois.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion15">
                 <source>Faites du travail collaboratif un atout.</source>
-                <target>Make collaborative work an asset.</target>
+                <target>Faites du travail collaboratif un atout.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion16">
                 <source>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.</source>
-                <target>By dividing and allocating responsibility for the various production tasks, you unlock accelerated and optimal collaboration based on your expectations.
+                <target>En divisant et en répartissant les responsables des différentes tâches de production, vous débloquez une collaboration accélérée et optimale, basée sur vos attentes.
                 </target>
             </trans-unit>
             <trans-unit id="lunarimmersion17">
                 <source>Donnez vies à vos idées.</source>
-                <target>Bring your ideas to life.</target>
+                <target>Donnez vies à vos idées.</target>
             </trans-unit>
             <trans-unit id="lunarimmersion18">
                 <source>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</source>
-                <target>Complete any project you can imagine without limits. Greatly improve your video content production chain</target>
+                <target>Achevez sans limites la réalisation complète de tous les projets que vous imaginez. Améliorez grandement votre chaîne de production de contenu vidéo</target>
             </trans-unit>
             <trans-unit id="socialmenu">
                 <source>Nos réseaux sociaux</source>
-                <target>Our social networks</target>
+                <target>Nos réseaux sociaux</target>
             </trans-unit>
             <trans-unit id="contactmenu">
                 <source>Nous contacter</source>
-                <target>Contact us</target>
+                <target>Nous contacter</target>
             </trans-unit>
             <trans-unit id="question">
                 <source>Une question ?</source>
-                <target>Any questions?</target>
+                <target>Une question ?</target>
             </trans-unit>
             <trans-unit id="demande">
                 <source>Une demande ?</source>
-                <target>A request?</target>
+                <target>Une demande ?</target>
             </trans-unit>
             <trans-unit id="telephone">
                 <source>Téléphone</source>
-                <target>Phone</target>
+                <target>Téléphone</target>
             </trans-unit>
             <trans-unit id="notragence">
                 <source>Notre agence est ouverte du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h30.</source>
-                <target>Our office is open from Monday to Friday from 9am to 12pm and from 2pm to 5.30pm.</target>
+                <target>Notre agence est ouverte du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h30.</target>
             </trans-unit>
             <trans-unit id="notresupport">
                 <source>Notre support vous fournira une réponse sous 48h.</source>
-                <target>Our support team will provide you with an answer within 48 hours.</target>
+                <target>Notre support vous fournira une réponse sous 48h.</target>
             </trans-unit>
             <trans-unit id="real">
                 <source>Nos réalisations</source>
-                <target>Our work</target>
+                <target>Nos réalisations</target>
             </trans-unit>
             <trans-unit id="real2">
                 <source>Un aperçu de nos réalisations pour le compte de nos clients, retrouver des vidéos interviews, des vidéos d'entreprise ainsi que des spots publicitaires.</source>
-                <target>An overview of our achievements on behalf of our clients, find video interviews, corporate videos and commercials.</target>
+                <target>Un aperçu de nos réalisations pour le compte de nos clients, retrouver des vidéos interviews, des vidéos d'entreprise ainsi que des spots publicitaires.</target>
             </trans-unit>
             <trans-unit id="test">
                 <source>test</source>
